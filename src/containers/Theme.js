@@ -3,11 +3,13 @@ import { ThemeProvider, injectGlobal } from 'styled-components'
 
 import monthoersOTF from 'assets/fonts/monthoers.otf'
 import monthoersTTF from 'assets/fonts/monthoers.ttf'
+import courierNewTTF from 'assets/fonts/cour.ttf'
 
 const theme = {
   fonts: {
     main: 'Avenir, Lato, sans-serif',
     titles: 'Monthoers, sans-serif',
+    headTitle: 'Courier New, serif',
     sizes: {
       'h1': '4em',
       'h2': '3em',
@@ -73,7 +75,12 @@ injectGlobal`
     font: inherit;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    font-family: ${theme.fonts.headTitle};
+    font-weight: 100;
+  }
+
+  h2, h3, h4, h5, h6 {
     font-family: ${theme.fonts.titles};
     font-weight: 100;
   }

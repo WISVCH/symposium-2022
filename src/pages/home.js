@@ -27,7 +27,7 @@ export default () => (
       <Row>
         <Column size={5} sSize={12}>
           <H2>About Us</H2>
-          <Text>Care for the Future is organised by a team of 8 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
+          <Text>Solving crime in no time is organised by a team of 7 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
           <Button medium to="/about">Learn more</Button>
           <br /><br />
         </Column>

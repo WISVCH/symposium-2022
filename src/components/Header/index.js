@@ -28,14 +28,14 @@ const Title = H1.extend`
   font-size: 9vw;
   margin-bottom: 0;
 
-  ${media.not.large`font-size: 6em;`}
+  ${media.not.large`font-size: 4em;`}
 `
 
 const Tagline = H1.extend`
   font-size: 6vw;
   margin: 0;
 
-  ${media.not.large`font-size: 4em;`}
+  ${media.not.large`font-size: 2em;`}
 `
 
 const Info = Text.extend`
@@ -46,11 +46,11 @@ export default () => (
   <Header>
     <HeaderContent>
       <GhostLogo />
-      <Title>Care for the Future</Title>
-      <Tagline>Improving health bit by bit</Tagline>
+      <Title>Solving Crime in No Time</Title>
+      <Tagline>The strength of digital forensics</Tagline>
       <Info>
-        October 22, 2018&nbsp;&nbsp;&nbsp;&nbsp;
-        Theatre De Veste
+        October 18, 2022&nbsp;&nbsp;&nbsp;&nbsp;
+        Aula
       </Info>
       <Button primary large to="/tickets">Get your ticket now</Button>
     </HeaderContent>
