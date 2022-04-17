@@ -19,7 +19,7 @@ const theme = {
   },
   colors: {
     text: '#fff',
-    background: '#000',
+    background: '#202e25',
     primary: '#f44336',
     secondary: '#16255d',
     accent: '#e87511',
