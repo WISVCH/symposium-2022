@@ -72,13 +72,15 @@ export default () => (
     <IntroTexture size="4em" />
     <H2>Introducing the symposium</H2>
     <IntroText>
-      This October, we will present you healthcare in the future.
-      In a day filled with talks, discussions and fun, you will be enlightened by the academics who are currently pushing the boundaries in healthcare technology, improving health, bit by bit.<br />
+      These days we hear a lot of talk about cyber security and privacy online. Plenty of times we have been told how to defend ourselves against malicious hackers and scammers, but sometimes they win.<br />
       <br />
-      Stay tuned for more information and we are happy to see you in October.<br />
+      This October 18th, we will present Solving Crime in No Time. A symposium from the study association W.I.S.V. Christiaan Huygens.
+      This symposium will explore the methods used to track down these criminals. You will learn how computer science and mathemetics can be used to help catch criminals.<br />
       <br />
-      Cheers,<br />
-      Cor-Jan Heijlema
+      So get ready for a deep dive into digital forensics and see you in October!<br />
+      <br />
+      Scott Jochems,<br />
+      Chairman Symposium Committee 2021-2022
     </IntroText>
     <Image src={cj} alt="Cor-Jan Heijlema" />
   </Introduction>
