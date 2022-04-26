@@ -75,7 +75,7 @@ export default () => (
       These days we hear a lot of talk about cyber security and privacy online. Plenty of times we have been told how to defend ourselves against malicious hackers and scammers, but sometimes they win.<br />
       <br />
       This October 18th, we will present Solving Crime in No Time. A symposium from the study association W.I.S.V. Christiaan Huygens.
-      This symposium will explore the methods used to track down these criminals. You will learn how computer science and mathemetics can be used to help catch criminals.<br />
+      This symposium will explore the methods used to track down these criminals. You will learn how computer science and mathematics can be used to help catch criminals.<br />
       <br />
       So get ready for a deep dive into digital forensics and see you in October!<br />
       <br />
