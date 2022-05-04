@@ -37,7 +37,7 @@ const Introduction = styled.div`
     darken(props.theme.colors.primary, 20)};
   border-radius: ${theme('border','radius')};
 
-  background-color: ${theme('colors','primary')};
+  background-color: ${theme('colors','tertiary')};
 
   ${media.small`padding: 1em 2em;`}
   ${media.not.small`padding: 2em 4em;`}

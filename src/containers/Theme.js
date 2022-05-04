@@ -22,8 +22,9 @@ const theme = {
   colors: {
     text: '#fff',
     background: '#202e25',
-    primary: '#3d5b48',
+    primary: '#50765e',
     secondary: '#131b16',
+    tertiary: '#3d5b48',
     accent: '#e87511',
     success: '#4caf50',
     warning: '#ffc107',
