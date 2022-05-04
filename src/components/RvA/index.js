@@ -2,9 +2,10 @@ import React from 'react'
 
 import Person from 'components/Person'
 
-import zAlArs from 'assets/speakers/z_al_ars.jpg'
-import mKeijzer from 'assets/speakers/m_keijzer.jpg'
-import gJongbloed from 'assets/speakers/g_jongbloed.jpg'
+import gJongbloed from 'assets/RvA/g_Jongbloed.png'
+import cWitteveen from 'assets/RvA/c_Witteveen.jpg'
+import rFokkink from 'assets/RvA/r_Fokkink.jpg'
+
 
 const rva = [
   {
@@ -14,14 +15,14 @@ const rva = [
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
-    img: zAlArs,
-    name: 'Dr.ir. Z. Al-Ars',
-    title: 'Associate professor in Bioinformatics',
+    img: cWitteveen,
+    name: 'Prof.dr. C. Witteveen',
+    title: 'Professor in Algorithmics',
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
-    img: mKeijzer,
-    name: 'Dr.ir. M. Keijzer',
+    img: rFokkink,
+    name: 'dr. R.J. Fokkink',
     title: 'Assistant Professor in Applied Mathematics',
     faculty: 'Faculty of EEMCS TU Delft'
   },

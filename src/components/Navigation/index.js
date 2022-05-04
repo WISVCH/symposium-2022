@@ -68,8 +68,8 @@ export default connect(
       </Links>
       <BackLink>
         <StyledLink
-          href="https://symposium.ch.tudelft.nl/2017/"
-          target="_blank">Back to 2017 &rarr;</StyledLink>
+          href="https://symposium.ch.tudelft.nl/2020/"
+          target="_blank">Back to 2020 &rarr;</StyledLink>
       </BackLink>
     </Wrapper>
   </Navigation>
