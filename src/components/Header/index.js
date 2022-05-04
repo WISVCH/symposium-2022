@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { media } from 'utilities/styles'
 
-import { Wrapper, H1, Text, Button } from 'components/lib'
+import { Wrapper, H1, H2, Text, Button } from 'components/lib'
 import GhostLogo from './GhostLogo'
 import ScrollDown from './ScrollDown'
 
@@ -31,7 +31,7 @@ const Title = H1.extend`
   ${media.not.large`font-size: 4em;`}
 `
 
-const Tagline = H1.extend`
+const Tagline = H2.extend`
   font-size: 6vw;
   margin: 0;
 
