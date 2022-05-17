@@ -4,11 +4,12 @@ import { ThemeProvider, injectGlobal } from 'styled-components'
 import monthoersOTF from 'assets/fonts/monthoers.otf'
 import monthoersTTF from 'assets/fonts/monthoers.ttf'
 import courierNewTTF from 'assets/fonts/cour.ttf'
+import ubuntuTTF from 'assets/fonts/Ubuntu-Regular.ttf'
 
 const theme = {
   fonts: {
     main: 'Avenir, Lato, sans-serif',
-    titles: 'Monthoers, sans-serif',
+    titles: 'Ubuntu, sans-serif',
     headTitle: 'Courier New, serif',
     sizes: {
       'h1': '4em',
@@ -22,8 +23,9 @@ const theme = {
   colors: {
     text: '#fff',
     background: '#202e25',
-    primary: '#3d5b48',
+    primary: '#50765e',
     secondary: '#131b16',
+    tertiary: '#3d5b48',
     accent: '#e87511',
     success: '#4caf50',
     warning: '#ffc107',
@@ -48,7 +50,7 @@ injectGlobal`
   @font-face {
     font-family: Monthoers;
     src: url(${monthoersOTF});
-    src: url(${monthoersTTF}) format('truetype');
+    src: url(${ubuntuTTF}) format('truetype');
 
     font-weight: normal;
     font-style: normal;
