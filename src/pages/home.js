@@ -28,7 +28,7 @@ export default () => (
         <Column size={5} sSize={12}>
           <H2>About Us</H2>
           <Text>Solving crime in no time is organised by a team of 7 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
-          <Button medium to="/about">Learn more</Button>
+          <Button primary medium to="/about">Learn more</Button>
           <br /><br />
         </Column>
         <Column size={1} sSize={0} />
