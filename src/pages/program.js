@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, H1, Text, Link } from 'components/lib'
+import { Page, H1 } from 'components/lib'
 import Section from 'components/Section'
 import Program from 'components/Program'
 

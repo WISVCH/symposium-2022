@@ -7,7 +7,7 @@ import slug from 'utilities/slug'
 
 import speakers from './data'
 
-import { Text, Row, Column } from 'components/lib'
+import { Text, Column } from 'components/lib'
 import Speaker from './Speaker'
 
 
