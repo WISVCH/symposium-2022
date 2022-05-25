@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, H1, H2, Text } from 'components/lib'
+import { Page, H2, Text } from 'components/lib'
 import Section from 'components/Section'
 import Host from 'components/Host'
 import RvA from 'components/RvA'
@@ -9,7 +9,7 @@ import Committee from 'components/Committee'
 export default () => (
   <Page>
     <Section>
-      <H1>About the symposium</H1>
+      <H2>About the symposium</H2>
       <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association ‘Christiaan Huygens’. The association puts time and resources into organizing these symposia, because they see value in the ability for students and fresh graduates to get an insight in what their studies can achieve in practice. In this edition, titled ‘Care for the future – Improving health bit by bit’, various speakers will give an insight into the advancements in health and healthcare made possible by various technologies, but also ask the question whether we should use them based on ethical objections.</Text>
     </Section>
     <Section>
