@@ -5,7 +5,7 @@ import { theme, media, darken } from 'utilities/styles'
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
-import cj from 'assets/intro.png'
+import TBD_person from 'assets/speakers/TBD_person.png'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`
@@ -82,6 +82,6 @@ export default () => (
       Scott Jochems,<br />
       Chairman Symposium Committee 2021-2022
     </IntroText>
-    <Image src={cj} alt="Cor-Jan Heijlema" />
+    <Image src={TBD_person} alt="Scott Jochems" />
   </Introduction>
 )
