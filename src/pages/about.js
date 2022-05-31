@@ -10,7 +10,7 @@ export default () => (
   <Page>
     <Section>
       <H2>About the symposium</H2>
-      <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association ‘Christiaan Huygens’. The association puts time and resources into organizing these symposia, because they see value in the ability for students and fresh graduates to get an insight in what their studies can achieve in practice. In this edition, titled ‘Care for the future – Improving health bit by bit’, various speakers will give an insight into the advancements in health and healthcare made possible by various technologies, but also ask the question whether we should use them based on ethical objections.</Text>
+      <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association ‘Christiaan Huygens’. The association puts time and resources into organizing these symposia, because they see value in the ability for students and fresh graduates to get an insight in what their studies can achieve in practice. In this edition, titled ‘Solving Crime in No Time – The strength of digital forensics’, various speakers will give an insight into the advancements in digital forensics and apprehending criminals.</Text>
     </Section>
     <Section>
       <H2>The Host</H2>
