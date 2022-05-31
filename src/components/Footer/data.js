@@ -12,31 +12,26 @@ export default [
   {
     name: "Company Partners",
     members: [
-      {
-        name: 'Logex',
-        img: logex,
-        url: 'https://www.logex.com/',
-      },
-      {
-        name: 'ProDrive',
-        img: prodrive,
-        url: 'https://prodrive-technologies.com/',
-      },
-      {
-        name: 'ChipSoft',
-        img: chipsoft,
-        url: 'https://www.chipsoft.nl/',
-      }
+      // {
+      //   name: 'Logex',
+      //   img: logex,
+      //   url: 'https://www.logex.com/',
+      // },
+      // {
+      //   name: 'ProDrive',
+      //   img: prodrive,
+      //   url: 'https://prodrive-technologies.com/',
+      // },
+      // {
+      //   name: 'ChipSoft',
+      //   img: chipsoft,
+      //   url: 'https://www.chipsoft.nl/',
+      // }
     ]
   },
   {
     name: 'Funds',
     members: [
-      {
-        name: 'StuD Fonds',
-        img: stud,
-        url: 'https://www.stud.nl/',
-      },
       {
         name: 'Timman Fonds',
         img: timman,
