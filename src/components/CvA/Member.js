@@ -53,7 +53,7 @@ const Right = styled.div`
 const Name = H3.extend`
   margin: 0;
 
-  font-size: 1.75em;
+  font-size: 1.5em;
 `
 
 const Tagline = Text.extend`
@@ -66,7 +66,7 @@ export default ({ image, company, name, role }) => (
       <Logo src={image} alt={company} />
     </Left>
     <Right>
-      <Name>{name.toLowerCase()}</Name>
+      <Name>{name}</Name>
       <Tagline>{role} at {company}</Tagline>
     </Right>
   </Member>
