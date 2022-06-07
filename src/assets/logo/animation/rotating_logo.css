@@ -1,0 +1,57 @@
+.wrapper
+{
+    position: absolute;
+    top: 0;
+    right: 0; bottom: 0;
+  
+    width: 75%;
+    margin: auto;
+  
+    opacity: .3;
+  
+    transform: translate(15%, 0);
+}
+.layer1
+{
+width: 60%;
+height: 60%;
+margin: 20%;
+position: absolute;
+
+}
+.layer2{
+
+    width: 65%;
+    height: 65%;
+    margin: 17%;
+    position: absolute;
+
+    animation-name: ckw;
+    animation-duration: 15.5s;
+    /* Things added */
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+    /* <--- */
+}
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }}    
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
