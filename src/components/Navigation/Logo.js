@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { media } from 'utilities/styles'
 
-import logo from 'assets/logo/sympo_logo_final.svg'
+import logo from 'assets/logo/animation/fingerprint.svg'
 
 export default styled.img.attrs({
   src: () => logo,

@@ -1,7 +1,7 @@
 import TBD_person from 'assets/speakers/TBD_person.png'
 
 const parseTime = (h, m) =>
-  new Date(Date.UTC(2018, 10, 22, h, m, 0))
+  new Date(Date.UTC(2022, 10, 18, h, m, 0))
 
 const events = [
   {
