@@ -2,6 +2,7 @@ import React from 'react'
 
 import fingerprint from 'assets/logo/animation/fingerprint.svg'
 import circle_2 from 'assets/logo/animation/cirkel_2.svg'
+import circle_3 from 'assets/logo/animation/cirkel_3.svg'
 import animation_stylesheet from 'assets/logo/animation/rotating_logo.css'
 
 /* 
@@ -29,11 +30,15 @@ const GhostLogo = styled.img.attrs({
 export default GhostLogo
 */
 
+
+
 export default () => (
 <div style = {animation_stylesheet}>
   <div class="wrapper">
       <img src= {fingerprint} alt= {"Solving Crime in No Time"} class="layer1"></img>
       <img src= {circle_2} alt= {"Solving Crime in No Time"} class="layer2"></img>
+      <img src= {circle_3} alt= {"Solving Crime in No Time"} class="layer3"></img>
+      <img src= {circle_2} alt= {"Solving Crime in No Time"} class="layer4"></img>
   </div>
 </div>
 )

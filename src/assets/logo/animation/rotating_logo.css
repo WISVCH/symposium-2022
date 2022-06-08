@@ -20,27 +20,40 @@ position: absolute;
 
 }
 .layer2{
-
-    width: 65%;
-    height: 65%;
-    margin: 17%;
-    position: absolute;
-
-    animation-name: ckw;
-    animation-duration: 15.5s;
-    /* Things added */
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    display: inline-block;
-    /* <--- */
+width: 72.5%;
+height: 70%;
+margin: 15%;
+position: absolute;
+transform-origin: 48.2% 50%;
+-webkit-animation:reverse_spin 40s linear infinite;
+-moz-animation:reverse_spin 40s linear infinite;
+animation:reverse_spin 40s linear infinite;
 }
-@keyframes ckw {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }}    
+
+.layer3{
+    width: 85%;
+    height: 80%;
+    margin: 10%;
+    position: absolute;
+    transform-origin: 47.5% 50%;
+    -webkit-animation:spin 50s linear infinite;
+    -moz-animation:spin 50s linear infinite;
+    animation:spin 50s linear infinite;
+}
+
+.layer4{
+    width: 94%;
+    height: 90%;
+    margin: 5%;
+    position: absolute;
+    transform-origin: 48.3% 50%;
+    -webkit-animation:reverse_spin 70s linear infinite;
+    -moz-animation:reverse_spin 70s linear infinite;
+    animation:reverse_spin 70s linear infinite;
+}
+
+
+
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
 }
@@ -53,5 +66,20 @@ position: absolute;
     100% { 
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
+    } 
+}
+
+@-moz-keyframes reverse_spin { 
+    100% { -moz-transform: rotate(-360deg); } 
+}
+
+@-webkit-keyframes reverse_spin { 
+    100% { -webkit-transform: rotate(-360deg); } 
+}
+
+@keyframes reverse_spin { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+        transform:rotate(-360deg); 
     } 
 }
