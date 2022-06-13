@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { connect } from 'react-redux'
 
-import image from 'assets/header.jpg'
+import image from 'assets/stad.jpeg'
 
 const Overlay = styled.div.attrs({
   style: ({scrollTop, windowHeight}) => ({

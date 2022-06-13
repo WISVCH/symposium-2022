@@ -2,27 +2,35 @@
 {
     position: absolute;
     top: 0;
-    right: 0; bottom: 0;
+    right: 0; 
+    left: 0;
+    bottom: 0;
   
     width: 75%;
     margin: auto;
   
     opacity: .3;
   
-    transform: translate(15%, 0);
+    transform: translate(20%, 0);
 }
 .layer1
 {
 width: 60%;
 height: 60%;
-margin: 20%;
+margin-top: 20%;
+margin-bottom: 0%;
+margin-left: 20%;
+margin-right: 0%;
 position: absolute;
 
 }
 .layer2{
 width: 72.5%;
 height: 70%;
-margin: 15%;
+margin-top: 15%;
+margin-bottom: 0%;
+margin-left: 15%;
+margin-right: 0%;
 position: absolute;
 transform-origin: 48.2% 50%;
 -webkit-animation:reverse_spin 40s linear infinite;
@@ -33,7 +41,10 @@ animation:reverse_spin 40s linear infinite;
 .layer3{
     width: 85%;
     height: 80%;
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    margin-right: 0%;
     position: absolute;
     transform-origin: 47.5% 50%;
     -webkit-animation:spin 50s linear infinite;
@@ -44,7 +55,10 @@ animation:reverse_spin 40s linear infinite;
 .layer4{
     width: 94%;
     height: 90%;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 0%;
     position: absolute;
     transform-origin: 48.3% 50%;
     -webkit-animation:reverse_spin 70s linear infinite;
