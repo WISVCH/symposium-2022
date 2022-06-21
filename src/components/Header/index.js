@@ -8,7 +8,7 @@ import ScrollDown from './ScrollDown'
 
 const Header = styled.header`
   position: relative;
-  margin-bottom: calc(65vmax - 20vw);
+  margin-bottom: calc(40vmax - 20vw);
 `
 
 const HeaderContent = Wrapper.extend`

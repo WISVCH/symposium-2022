@@ -6,11 +6,11 @@ import image from 'assets/header.jpg'
 
 const Overlay = styled.div.attrs({
   style: ({scrollTop, windowHeight}) => ({
-    transform: `translate(-50%, 0) scale(${Math.min(.8 + .2 * scrollTop / windowHeight, 1)})`
+    transform: `translate(-50%, 0) scale(${Math.min(.8 + .05 * scrollTop / windowHeight, 1)})`
   })
 })`
   position: absolute;
-  left: 50%; top: calc(80vh - 20vw);
+  left: 50%; top: calc(70vh - 20vw);
 
   transform: translate(-50%, 0);
   transform-origin: 50% -100%;
