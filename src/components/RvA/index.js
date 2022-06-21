@@ -5,6 +5,7 @@ import Person from 'components/Person'
 import gJongbloed from 'assets/RvA/g_Jongbloed.png'
 import cWitteveen from 'assets/RvA/c_Witteveen.jpg'
 import rFokkink from 'assets/RvA/r_Fokkink.jpg'
+import cLiem from 'assets/RvA/c_Liem.jpg'
 
 
 const rva = [
@@ -25,7 +26,12 @@ const rva = [
     name: 'dr. R.J. Fokkink',
     title: 'Assistant Professor in Applied Mathematics',
     faculty: 'Faculty of EEMCS TU Delft'
-  },
+  }, {
+    img: cLiem,
+    name: 'dr. C.C.S. Liem',
+    title: 'Associate Professor in Multimedia Computing',
+    faculty: 'Faculty of EEMCS TU Delft'
+  }
 ]
 
 const RvA = () => (
