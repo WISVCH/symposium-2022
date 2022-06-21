@@ -5,7 +5,7 @@ import { theme, media, darken } from 'utilities/styles'
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
-import TBD_person from 'assets/speakers/TBD_person.png'
+import TBD_person from 'assets/team2.jpg'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`
@@ -50,7 +50,7 @@ const IntroText = Text.extend`
 const Image = styled.img`
   ${media.not.medium`
       position: absolute;
-      right: 1em; bottom: 0;
+      right: 1em; bottom: 25%;
 
       width: 30%;
   `}

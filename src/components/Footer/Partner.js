@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ch from 'assets/partners/ch_white.svg'
 
 const Partner = styled.a`
   position: relative;
@@ -16,12 +17,12 @@ const Logo = styled.img`
   max-width: 100%;
   max-height: 100%;
   margin: auto;
-
-  filter: brightness(0%) invert(100%);
 `
 
 export default ({ name, img, url }) => (
   <Partner className="Partner" href={url} target="_blank">
-    <Logo src={img} alt={name} />
+    {img === ch ?
+      (<Logo src={img} alt={name}/>) : <Logo src={img} alt={name} style={{'filter': 'brightness(0%) invert(100%)'}}/>
+    } 
   </Partner>
 )

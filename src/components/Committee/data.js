@@ -1,4 +1,3 @@
-import TBD_person from 'assets/speakers/TBD_person.png'
 import Scott from 'assets/committee/Scott.jpg'
 import Waded from 'assets/committee/Waded.jpg'
 import Thomas from 'assets/committee/Thomas.jpg'
