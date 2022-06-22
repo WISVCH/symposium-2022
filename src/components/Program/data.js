@@ -71,7 +71,7 @@ const events = [
     revealed: true,
     start: parseTime(15, 0),
     end:   parseTime(16, 30),
-    title: 'Workshop',
+    title: 'Workshops',
     bgImage: TBD_person,
   },
   {

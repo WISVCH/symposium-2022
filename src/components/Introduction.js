@@ -6,6 +6,7 @@ import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
 import team from 'assets/team2.jpg'
+import Scott from 'assets/committee/Scott_cutout.png'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`
@@ -50,9 +51,9 @@ const IntroText = Text.extend`
 const Image = styled.img`
   ${media.not.medium`
       position: absolute;
-      right: 1em; bottom: 0;
+      right: 0em; bottom: 0;
 
-      width: 30%;
+      width: 35%;
   `}
 
   ${media.medium`
@@ -83,6 +84,6 @@ export default () => (
       On behalf of the Symposium Committee, <br />
       Scott Jochems
     </IntroText>
-    <Image src={team} alt="Scott Jochems" />
+    <Image src={Scott} alt="Scott Jochems" />
   </Introduction>
 )

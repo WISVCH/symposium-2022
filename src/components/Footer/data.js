@@ -1,34 +1,20 @@
-import logex from 'assets/partners/logex.png'
-import prodrive from 'assets/partners/prodrive.png'
-import chipsoft from 'assets/partners/chipsoft.png'
 
-import stud from 'assets/partners/stud.png'
 import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
-import ch from 'assets/partners/ch_white.svg'
+import ch from 'assets/partners/ch_white_2.png'
 
 export default [
-  {
-    name: "Company Partners",
-    members: [
-      // {
-      //   name: 'Logex',
-      //   img: logex,
-      //   url: 'https://www.logex.com/',
-      // },
-      // {
-      //   name: 'ProDrive',
-      //   img: prodrive,
-      //   url: 'https://prodrive-technologies.com/',
-      // },
-      // {
-      //   name: 'ChipSoft',
-      //   img: chipsoft,
-      //   url: 'https://www.chipsoft.nl/',
-      // }
-    ]
-  },
+  // {
+  //   name: "Company Partners",
+  //   members: [
+  //     {
+  //       name: 'temp',
+  //       img: temp,
+  //       url: 'temp.com',
+  //     }
+  //   ]
+  // },
   {
     name: 'Funds',
     members: [
