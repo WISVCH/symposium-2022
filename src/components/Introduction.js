@@ -70,13 +70,13 @@ const Image = styled.img`
 export default () => (
   <Introduction>
     <IntroTexture size="4em" />
-    <H2>Introducing the symposium</H2>
+    <H2>Introducing the Symposium</H2>
     <IntroText>
       While advanced technology opens the door to many more criminal activities, it has also had great benefits for the exact opposite. Nowadays, criminal investigation is heavily influenced by computer science and mathematics. <br />
       <br />
-      In this symposium, we aim to dive deep into the many different sides of the world of criminal investigation and the modern technology that they use to solve crimes. We will feature multiple experts that work to use their computer science and mathematical knowledge to apprehend criminals. They are very excited to share their knowledge with you and give you a peek into the world of criminal investigation. <br />
+      During this symposium, we aim to dive deep into the many different sides of the world of criminal investigation and the modern technology that they use to solve crimes. We will feature multiple experts that work to use their computer science and mathematical knowledge to apprehend criminals. They are very excited to share their knowledge with you and give you a peek into the world of criminal investigation. <br />
       <br />
-      We are very excited to welcome you all to our symposium: “Solving Crime in No Time, the Strength of Digital Forensics”, organized by the study association ‘W.I.S.V. Christiaan Huygens’.<br />
+      We are proud to welcome you all to our symposium: “Solving Crime in No Time, the Strength of Digital Forensics”, organized by the study association ‘W.I.S.V. Christiaan Huygens’.<br />
       <br />
       See you on October 18th! <br />
       <br />
