@@ -41,7 +41,7 @@ flex-wrap: wrap;
 export default () => (
   <div>
     {speakers.map((speaker, i) => (
-      <SpeakerRow to={`/event/${slug(speaker.name)}`} key={i}>
+      <SpeakerRow to={`/event/${speaker.event}`} key={i}>
         {i % 2 ? <Column size={6} mSize={4} sSize={12}>
           <Text style={{"-webkit-line-clamp": "9"}}> {speaker.abstract} </Text>
           </Column>

@@ -5,7 +5,6 @@ import { theme, media, darken } from 'utilities/styles'
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
-import team from 'assets/team2.jpg'
 import Scott from 'assets/committee/Scott_cutout.png'
 
 const IntroTexture = Texture.extend`

@@ -62,7 +62,4 @@ export default ({bgImage, title, meta, active, ...rest}) =>
     {meta
       ? <Text>{meta}</Text>
       : null}
-    {active
-      ? <EventButton medium>Read More</EventButton>
-      : null }
   </EventContent>

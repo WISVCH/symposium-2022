@@ -1,4 +1,5 @@
 import TBD_person from 'assets/speakers/TBD_person.png'
+import Gabriella from 'assets/speakers/gabriella-ader.png'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2022, 10, 18, h, m, 0))
@@ -15,19 +16,19 @@ const events = [
     start: parseTime( 11, 0),
     end:   parseTime( 11, 15),
     title: 'Opening',
-    meta: 'TBD - The Host',
-    speaker: 'TBD',
-    event: 'TBD',
-    bgImage: TBD_person,
+    meta: 'Gabriella Adèr - The Host',
+    speaker: 'Gabriella Adèr',
+    event: 'gabriella-ader',
+    bgImage: Gabriella,
   },
   {
     revealed: false,
     start: parseTime( 11, 15),
     end:   parseTime(12, 0),
-    title: 'TBD',
-    meta: 'TBD — TBD',
-    speaker: 'TBD',
-    event: 'TBD',
+    title: 'To be announced',
+    meta: 'To be announced — To be announced',
+    speaker: 'To be announced',
+    event: 'To be announced',
     bgImage: TBD_person,
   }, {
     revealed: true,
@@ -39,10 +40,10 @@ const events = [
     revealed: false,
     start: parseTime(12, 15),
     end:   parseTime(13, 0),
-    title: 'TBD',
-    meta: 'TBD — TBD',
-    speaker: 'TBD',
-    event: 'TBD',
+    title: 'To be announced',
+    meta: 'To be announced — To be announced',
+    speaker: 'To be announced',
+    event: 'To be announced',
     bgImage: TBD_person,
   }, 
   {
@@ -52,13 +53,13 @@ const events = [
     title: 'Lunch',
   },
   {
-    revealed: true,
+    revealed: false,
     start: parseTime(14, 0),
     end:   parseTime(14, 45),
-    title: 'TBD',
-    meta: 'TBD — TBD',
-    speaker: 'TBD',
-    event: 'TBD',
+    title: 'To be announced',
+    meta: 'To be announced — To be announced',
+    speaker: 'To be announced',
+    event: 'To be announced',
     bgImage: TBD_person,
   },
   {
@@ -68,7 +69,7 @@ const events = [
     title: 'Coffee break',
   },
   {
-    revealed: true,
+    revealed: false,
     start: parseTime(15, 0),
     end:   parseTime(16, 30),
     title: 'Workshops',
