@@ -47,7 +47,7 @@ export default () => (
     <HeaderContent>
       <GhostLogo />
       <Title>Solving Crime in No Time</Title>
-      <Tagline>The strength of digital forensics</Tagline>
+      <Tagline>The Strength of Digital Forensics</Tagline>
       <Info>
         October 18, 2022&nbsp;&nbsp;&nbsp;&nbsp;
         Technische Universiteit Delft Aula Congrescentrum

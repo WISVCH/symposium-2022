@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="sympo-logo-klein.svg"/>
+            <square150x150logo src="sympo-logo-klein-round.png"/>
             <TileColor>#f44336</TileColor>
         </tile>
     </msapplication>
