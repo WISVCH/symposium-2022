@@ -1,4 +1,3 @@
-
 import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
