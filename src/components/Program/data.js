@@ -28,7 +28,7 @@ const events = [
     title: 'To be announced',
     meta: 'To be announced — To be announced',
     speaker: 'To be announced',
-    event: 'To be announced',
+    event: 'TBD',
     bgImage: TBD_person,
   }, {
     revealed: true,
@@ -43,7 +43,7 @@ const events = [
     title: 'To be announced',
     meta: 'To be announced — To be announced',
     speaker: 'To be announced',
-    event: 'To be announced',
+    event: 'TBD',
     bgImage: TBD_person,
   }, 
   {
@@ -59,7 +59,7 @@ const events = [
     title: 'To be announced',
     meta: 'To be announced — To be announced',
     speaker: 'To be announced',
-    event: 'To be announced',
+    event: 'TBD',
     bgImage: TBD_person,
   },
   {

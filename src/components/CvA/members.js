@@ -16,7 +16,7 @@ export default [
   }, {
     image: erasmus,
     company: 'Erasmus University',
-    name: 'Prof. dr. Annelien Bredenoord',
+    name: 'Prof. dr. A. Bredenoord',
     role: 'Rector Magnificus'
   }, {
     image: tud,
@@ -26,7 +26,7 @@ export default [
   }, {
     image: delft,
     company: 'Delft',
-    name: 'Ms. Marja van Bijsterveldt',
+    name: 'Ms. M. van Bijsterveldt',
     role: 'Mayor'
   }, {
     image: brunel,
@@ -41,7 +41,7 @@ export default [
   }, {
     image: shell,
     company: 'Shell Netherlands',
-    name: 'Marjan van Loon',
+    name: 'M. van Loon',
     role: 'Chief Executive Officer'
   }
 ]

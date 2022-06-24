@@ -5,7 +5,7 @@ import logo from 'assets/logo/sympo-logo-klein.svg'
 
 export default styled.img.attrs({
   src: () => logo,
-  alt: () => "Solving Crime in No Time - The strength of digital forensics"
+  alt: () => "Solving Crime in No Time - The Strength of Digital Forensics"
 })`
   display: block;
   height: 3em;
