@@ -48,20 +48,15 @@ const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
       </Row>
     </Section>
     <Section id="abstract">
-      <H3>Abstract</H3>
+      <H3>About</H3>
       <Markdown source={abstract} />
-    </Section>
-    <Section id="bio">
-      <H3>About {name}</H3>
-      <Markdown source={bio} />
     </Section>
   </div>
 
 export default ({speaker, ...rest}) => {
-  const { bio, abstract, name } = speakers.find(s => s.name === speaker)
+  const {abstract, name } = speakers.find(s => s.name === speaker)
 
   return <Event
-    bio={bio ? bio : 'Coming soon'}
     abstract={abstract ? abstract : 'Coming soon'}
     name={name}
     {...rest} />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, H1, H2, Text } from 'components/lib'
+import { Page, H2, Text } from 'components/lib'
 import Section from 'components/Section'
 import Host from 'components/Host'
 import RvA from 'components/RvA'
@@ -9,14 +9,13 @@ import Committee from 'components/Committee'
 export default () => (
   <Page>
     <Section>
-      <H1>About the symposium</H1>
-      <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association ‘Christiaan Huygens’. The association puts time and resources into organizing these symposia, because they see value in the ability for students and fresh graduates to get an insight in what their studies can achieve in practice. In this edition, titled ‘Care for the future – Improving health bit by bit’, various speakers will give an insight into the advancements in health and healthcare made possible by various technologies, but also ask the question whether we should use them based on ethical objections.</Text>
+      <H2>About the symposium</H2>
+      <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association ‘Christiaan Huygens’. The association puts time and resources into organizing these symposia, because they see value in the ability for students and fresh graduates to get an insight in what their studies can achieve in practice. In this edition, titled ‘Solving Crime in No Time – The Strength of Digital Forensics’, various speakers will give an insight into how mathematics and computer science can contribute to solving crime. </Text>
     </Section>
     <Section>
       <H2>The Host</H2>
       <Host />
-      <Text> Bernard Leenstra (29) made an extraordinary move during his surgical career. He interrupted his surgical path to contribute to society outside of the OR. His medical knowledge, academic perceptions and entrepreneurial drive made him realise this and with his firms and innovations in the medical world Bernard is an inspiration both for other doctors and all other educated extraordinary people. </Text>
-       <Text> Bernard strongly believes that the healthcare system needs more young ambitious entrepreneurs with a medical background. Bernard himself aims to be a key figure between (medical) sciences and society. As a chairman for congresses he makes the baffling sciences available for all of society by his knowledge, experience and sense of humour. Furthermore, Bernard appears on television as well. During ‘De Lijf Show’ on SBS6, a show about the human body, he shares his knowledge as ‘Doctor Bernard’.</Text>
+      <Text> Gabriella Adèr is a freelance journalist and also works on producing and researching for documentaries and podcasts. Currently, she works for the NRC in the editorial team for podcasts. She collaborated in documentaries such as ‘De Villamoord’, a documentary about the villa murder in 1998 and what mistakes were made trying to solve this crime. Others are ‘Misdaaddokters’ (‘Crime Doctors’), ‘Cocainekoorts’ (‘Cocaine Fever’) and ‘Leven met de Maffia’ (‘Live with the Mafia’). In her work Gabriella is searching for stories representing our society and she is especially interested in the paradoxes that are present in these. This makes crime and justice a particular interest of hers. This interest and her enthusiasm makes her a fantastic host for our symposium. </Text>
     </Section>
     <Section>
       <H2>Board of Advice</H2>

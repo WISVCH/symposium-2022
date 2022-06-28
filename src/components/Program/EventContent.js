@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 import { theme, opacity, media } from 'utilities/styles'
 
-import { H3, Text, Button } from 'components/lib'
+import { H3, Text } from 'components/lib'
 
 const EventContent = styled.div`
   position: relative;
@@ -51,10 +51,6 @@ const Image = styled.div`
   `}
 `
 
-const EventButton = styled(Button)`
-  float: right;
-`
-
 export default ({bgImage, title, meta, active, ...rest}) =>
   <EventContent {...rest} active={active} large={!!bgImage}>
     <Image src={bgImage} />
@@ -62,7 +58,4 @@ export default ({bgImage, title, meta, active, ...rest}) =>
     {meta
       ? <Text>{meta}</Text>
       : null}
-    {active
-      ? <EventButton medium>Read More</EventButton>
-      : null }
   </EventContent>

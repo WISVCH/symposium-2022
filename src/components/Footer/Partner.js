@@ -17,11 +17,11 @@ const Logo = styled.img`
   max-height: 100%;
   margin: auto;
 
-  filter: brightness(0%) invert(100%);
+  filter: brightness(0%) invert(100%)
 `
 
 export default ({ name, img, url }) => (
   <Partner className="Partner" href={url} target="_blank">
-    <Logo src={img} alt={name} />
+      <Logo src={img} alt={name}/>
   </Partner>
 )

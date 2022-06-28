@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Person from 'components/Person'
-import leenstra from 'assets/speakers/b_leenstra.jpg'
+import TBD_person from 'assets/speakers/gabriella-ader.png'
 
 const host = [
   {
-    img: leenstra,
-    name: 'MD. Bernard Leenstra',
+    img: TBD_person,
+    name: 'Gabriella Adèr',
     title: 'Host',
   },
 ]

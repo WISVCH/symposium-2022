@@ -10,6 +10,13 @@ const Text = styled.p`
   ${props => props.accent && css`color: ${props.theme.colors.accent};`}
 
   ${props => props.center && css`text-align: center;`}
+
+
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 `
 
 export default Text

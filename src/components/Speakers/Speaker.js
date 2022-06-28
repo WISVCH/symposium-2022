@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { theme } from 'utilities/styles'
-import slug from 'utilities/slug'
 
 import { H3, Text } from 'components/lib'
 
-import { Link } from 'react-router-dom'
 
-const Speaker = styled(Link)`
+const Speaker = styled.p`
   display: block;
   border-radius: ${theme('border','radius')};
 
@@ -16,13 +14,8 @@ const Speaker = styled(Link)`
     url(${props => props.img}) no-repeat center / cover;
 
   padding: 40% 1em 1em;
-  margin-bottom: 1em;
 
   text-decoration: none;
-
-  &:hover {
-    box-shadow: 0 0 0 ${theme('border','width')} ${theme('colors','primary')};
-  }
 `
 
 const Name = H3.extend`
@@ -38,7 +31,7 @@ const Title = Text.extend`
 `
 
 export default ({img, name, company, title}) => (
-  <Speaker to={`/event/${slug(name)}`} img={img}>
+  <Speaker img={img}>
     <Name>{name} <Company>{company}</Company></Name>
     <Title>{title}</Title>
   </Speaker>

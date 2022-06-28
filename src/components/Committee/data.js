@@ -1,59 +1,52 @@
-import cj from 'assets/commissioners/cor-jan_heijlema.jpg'
-import hoef from 'assets/commissioners/emiel_hoefkens.jpg'
-import arie from 'assets/commissioners/arianne_schiereck.jpg'
-import wouter from 'assets/commissioners/wouter_raateland.jpg'
-import ilo from 'assets/commissioners/ilona_post.jpg'
-import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
-import jeroen from 'assets/commissioners/jeroen_nelen.jpg'
-import ireen from 'assets/commissioners/irene_vooijs.jpg'
+import Scott from 'assets/committee/Scott.jpg'
+import Waded from 'assets/committee/Waded.jpg'
+import Thomas from 'assets/committee/Thomas.jpg'
+import Jolijn from 'assets/committee/Jolijn.jpg'
+import Darwin from 'assets/committee/Darwin.jpg'
+import Marjolein from 'assets/committee/Marjolein.jpg'
+import Merel from 'assets/committee/Merel.jpg'
 
 export default [
   {
-    img: cj,
-    name: 'Cor-Jan Heijlema',
+    img: Scott,
+    name: 'Scott Jochems',
     title: 'Chairman',
-    link: 'https://www.linkedin.com/in/cor-jan-heijlema-2609bb12b/',
+    link: 'https://www.linkedin.com/in/scott-jochems-894288239/',
   },
   {
-    img: hoef,
-    name: 'Emiel Hoefkens',
+    img: Waded,
+    name: 'Waded Oudhuis',
     title: 'Secretary',
-    link: 'https://www.linkedin.com/in/emiel-hoefkens-b86b0912b/',
+    link: 'https://www.linkedin.com/in/waded-oudhuis-7ab076142/',
   },
   {
-    img: arie,
-    name: 'Arianne Schiereck',
+    img: Thomas,
+    name: 'Thomas Kamminga',
     title: 'Treasurer',
-    link: 'https://www.linkedin.com/in/arianne-schiereck-b34b96137/',
+    link: 'https://www.linkedin.com/in/thomas-kamminga-9180a81ba/',
   },
   {
-    img: wouter,
-    name: 'Wouter Raateland',
-    title: 'Commissioner promotion',
-    link: 'https://www.linkedin.com/in/wouterraateland/',
+    img: Jolijn,
+    name: 'Jolijn van Delft',
+    title: 'Commissioner of Promotion',
+    link: 'https://www.linkedin.com/in/jolijnvandelft/',
   },
   {
-    img: ilo,
-    name: 'Ilona Post',
-    title: 'Commissioner speakers',
-    link: 'https://www.linkedin.com/in/ilona-post-9b31a0134/',
+    img: Darwin,
+    name: 'Darwin Liu',
+    title: 'Commissioner of Speakers',
+    link: 'https://www.linkedin.com/in/darwin-liu-86a106230/',
   },
   {
-    img: hillie,
-    name: 'Hilco van der Wilk',
-    title: 'Commissioner speakers',
-    link: 'https://www.linkedin.com/in/hilco-van-der-wilk-3a668713b/',
+    img: Marjolein,
+    name: 'Marjolein van den Berghe',
+    title: 'Commissioner of Logistics',
+    link: 'https://www.linkedin.com/in/marjolein-van-den-berghe-739848151/',
   },
   {
-    img: jeroen,
-    name: 'Jeroen Nelen',
-    title: 'Supervisor',
-    link: 'https://www.linkedin.com/in/jeroen-nelen/',
-  },
-  {
-    img: ireen,
-    name: 'Irene Vooijs',
-    title: 'Supervisor',
-    link: 'https://www.linkedin.com/in/irene-vooijs-870b19137/',
+    img: Merel,
+    name: 'Merel Steenbergen',
+    title: 'Qualitate Qua',
+    link: 'https://www.linkedin.com/in/merelannesteenbergen/',
   },
 ]

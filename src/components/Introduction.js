@@ -5,7 +5,7 @@ import { theme, media, darken } from 'utilities/styles'
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
-import cj from 'assets/intro.png'
+import Scott from 'assets/committee/Scott_cutout.png'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`
@@ -50,9 +50,9 @@ const IntroText = Text.extend`
 const Image = styled.img`
   ${media.not.medium`
       position: absolute;
-      right: 1em; bottom: 0;
+      right: 0em; bottom: 0;
 
-      width: 30%;
+      width: 35%;
   `}
 
   ${media.medium`
@@ -70,18 +70,19 @@ const Image = styled.img`
 export default () => (
   <Introduction>
     <IntroTexture size="4em" />
-    <H2>Introducing the symposium</H2>
+    <H2>Introducing the Symposium</H2>
     <IntroText>
-      These days we hear a lot of talk about cyber security and privacy online. Plenty of times we have been told how to defend ourselves against malicious hackers and scammers, but sometimes they win.<br />
+      While advanced technology opens the door to many more criminal activities, it has also had great benefits for the exact opposite. Nowadays, criminal investigation is heavily influenced by computer science and mathematics. <br />
       <br />
-      This October 18th, we will present Solving Crime in No Time. A symposium from the study association W.I.S.V. Christiaan Huygens.
-      This symposium will explore the methods used to track down these criminals. You will learn how computer science and mathematics can be used to help catch criminals.<br />
+      During this symposium, we aim to dive deep into the many different sides of the world of criminal investigation and the modern technology that they use to solve crimes. We will feature multiple experts that work to use their computer science and mathematical knowledge to apprehend criminals. They are very excited to share their knowledge with you and give you a peek into the world of criminal investigation. <br />
       <br />
-      So get ready for a deep dive into digital forensics and see you in October!<br />
+      We are proud to welcome you all to our symposium: “Solving Crime in No Time, the Strength of Digital Forensics”, organized by the study association ‘W.I.S.V. Christiaan Huygens’.<br />
       <br />
-      Scott Jochems,<br />
-      Chairman Symposium Committee 2021-2022
+      See you on October 18th! <br />
+      <br />
+      On behalf of the Symposium Committee, <br />
+      Scott Jochems
     </IntroText>
-    <Image src={cj} alt="Cor-Jan Heijlema" />
+    <Image src={Scott} alt="Scott Jochems" />
   </Introduction>
 )

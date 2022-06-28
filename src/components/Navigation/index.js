@@ -64,7 +64,7 @@ export default connect(
       <Links>
         <StyledLink to="/program">Program</StyledLink>
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink href="/2018/tickets" target="_blank">Tickets</StyledLink>
+        <StyledLink href="/2022/tickets" target="_blank">Tickets</StyledLink>
       </Links>
       <BackLink>
         <StyledLink
