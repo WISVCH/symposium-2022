@@ -26,7 +26,7 @@ export default [
   }, {
     image: delft,
     company: 'Delft',
-    name: 'Ms. M. van Bijsterveldt',
+    name: 'M. van Bijsterveldt',
     role: 'Mayor'
   }, {
     image: brunel,

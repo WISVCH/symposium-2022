@@ -3,6 +3,7 @@ import Gabriella from 'assets/speakers/gabriella-ader.png'
 
 export default [
   {
+    revealed: false,
     links: [],
     img: Gabriella,
     name: 'Gabriella Adèr',
@@ -49,9 +50,9 @@ export default [
     links: [],
     img: TBD_person,
     name: 'To be announced',
-    company: 'TBD',
-    bio: `TBD`,
-    title: `TBD`,
+    company: '',
+    bio: ``,
+    title: ``,
     abstract: `This person will be revealed soon...`,
     event: 'TBD',
   }

@@ -47,10 +47,30 @@ const events = [
     bgImage: TBD_person,
   }, 
   {
+    revealed: false,
+    start: parseTime(12, 15),
+    end:   parseTime(13, 0),
+    title: 'To be announced',
+    meta: 'To be announced — To be announced',
+    speaker: 'To be announced',
+    event: 'TBD',
+    bgImage: TBD_person,
+  },
+  {
     revealed: true,
     start: parseTime(13, 0),
     end:   parseTime(14, 0),
     title: 'Lunch',
+  },
+  {
+    revealed: false,
+    start: parseTime(14, 0),
+    end:   parseTime(14, 45),
+    title: 'To be announced',
+    meta: 'To be announced — To be announced',
+    speaker: 'To be announced',
+    event: 'TBD',
+    bgImage: TBD_person,
   },
   {
     revealed: false,
@@ -73,7 +93,6 @@ const events = [
     start: parseTime(15, 0),
     end:   parseTime(16, 30),
     title: 'Workshops',
-    bgImage: TBD_person,
   },
   {
     revealed: true,
