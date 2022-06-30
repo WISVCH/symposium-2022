@@ -41,7 +41,7 @@ export default [
     company: '',
     bio: ``,
     title: ``,
-    abstract: `This person will be revealed soon...`,
+    abstract: `More speakers will be revealed soon...`,
     event: 'TBD',
   }, {
     revealed: false,
@@ -51,7 +51,7 @@ export default [
     company: '',
     bio: ``,
     title: ``,
-    abstract: `This person will be revealed soon...`,
+    abstract: `More speakers will be revealed soon...`,
     event: 'TBD',
   }, {
     revealed: false,
@@ -61,7 +61,7 @@ export default [
     company: '',
     bio: ``,
     title: ``,
-    abstract: `This person will be revealed soon...`,
+    abstract: `More speakers will be revealed soon...`,
     event: 'TBD',
   }
   
