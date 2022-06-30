@@ -1,6 +1,8 @@
 import TBD_person from 'assets/speakers/TBD_person.png'
 import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
+import Klaas from 'assets/speakers/klaas-slooten.jpg'
+
 
 export default [
   {
@@ -22,13 +24,13 @@ export default [
     event: 'ronald-prins',
   }, {
     links: [],
-    img: TBD_person,
-    name: 'To be announced',
+    img: Klaas,
+    name: 'Klaas Slooten',
     company: '',
     bio: ``,
-    title: ``,
-    abstract: `This person will be revealed soon...`,
-    event: 'TBD',
+    title: `Interpretation of DNA mixtures`,
+    abstract: `Klaas Slooten works in Forensic Genetics for NFI and is also professor of “Mathematics for Forensic Genetics” at VU Amsterdam. His presentation will be about the interpretation of DNA mixtures, traces to which several people have contributed, found at crime scenes. He will explain the mathematical models used to calculate the likelihood of a certain person being present at the scene of the crime. Furthermore, he will talk about the communication between the forensic department and the judicial system.`,
+    event: 'klaas-slooten',
   }, {
     links: [],
     img: TBD_person,
