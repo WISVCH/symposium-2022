@@ -1,5 +1,7 @@
 import TBD_person from 'assets/speakers/TBD_person.png'
 import Gabriella from 'assets/speakers/gabriella-ader.png'
+import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
+
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2022, 10, 18, h, m, 0))
@@ -22,14 +24,14 @@ const events = [
     bgImage: Gabriella,
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime( 11, 15),
     end:   parseTime(12, 0),
-    title: 'To be announced',
-    meta: 'To be announced — To be announced',
-    speaker: 'To be announced',
-    event: 'TBD',
-    bgImage: TBD_person,
+    title: 'The attribution of attackers in cyberspace',
+    meta: 'Ronald Prins',
+    speaker: 'Ronald Prins',
+    event: 'ronald-prins',
+    bgImage: Ronald,
   }, {
     revealed: true,
     start: parseTime(12, 0),
