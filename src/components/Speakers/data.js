@@ -30,7 +30,7 @@ export default [
     name: 'Klaas Slooten',
     company: '',
     bio: ``,
-    title: `Interpretation of DNA mixtures`,
+    title: `Mathematical analysis of crime scenes`,
     abstract: `Klaas Slooten works in Forensic Genetics for NFI and is also professor of “Mathematics for Forensic Genetics” at VU Amsterdam. His presentation will be about the interpretation of DNA mixtures, traces to which several people have contributed, found at crime scenes. He will explain the mathematical models used to calculate the likelihood of a certain person being present at the scene of the crime. Furthermore, he will talk about the communication between the forensic department and the judicial system.`,
     event: 'klaas-slooten',
   }, {
