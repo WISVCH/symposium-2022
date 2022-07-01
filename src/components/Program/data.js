@@ -43,7 +43,7 @@ const events = [
     revealed: false,
     start: parseTime(12, 15),
     end:   parseTime(13, 0),
-    title: 'Mathematical analysis of crime scenes',
+    title: 'Interpretation of DNA mixtures',
     meta: 'Klaas Slooten',
     speaker: 'Klaas Slooten',
     event: 'klaas-slooten',
