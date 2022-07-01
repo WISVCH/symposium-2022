@@ -4,7 +4,7 @@
   "homepage": "https://symposium.ch.tudelft.nl/2022",
   "private": true,
   "engines": {
-    "node": ">=4 <=9"
+    "node": ">=9"
   },
   "dependencies": {
     "classnames": "^2.2.5",
