@@ -1,4 +1,4 @@
-FROM node:9 as builder
+FROM node:lts as builder
 WORKDIR /src
 COPY . .
 RUN yarn

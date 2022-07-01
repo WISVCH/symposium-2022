@@ -4,7 +4,7 @@ services:
 script:
 - docker build --no-cache --pull -t wisvch/sympo-2022:$TRAVIS_BUILD_NUMBER .
 after_success:
-- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
+- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "main" ]; then
   docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
   docker push wisvch/sympo-2022:$TRAVIS_BUILD_NUMBER;
   fi
