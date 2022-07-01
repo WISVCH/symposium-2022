@@ -9,13 +9,13 @@
 ```bash
 git clone https://github.com/WISVCH/symposium-2022.git
 cd symposium-2022
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 ## Building for production
 ```bash
-npm run build
+yarn build
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
