@@ -27,7 +27,7 @@ export default () => (
       <Row>
         <Column size={5} sSize={12}>
           <H2>About Us</H2>
-          <Text>Solving crime in no time is organised by a team of 7 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
+          <Text>Solving Crime in No Time is organised by the Symposium committee, a team of 7 students from study association W.I.S.V. ‘Christiaan Huygens’.</Text>
           <Button primary medium to="/about">Learn more</Button>
           <br /><br />
         </Column>
@@ -41,7 +41,7 @@ export default () => (
       <Row>
         <Column size={6} lSize={9} mSize={12}>
           <H2>Board of Recommendation</H2>
-          <Text>The following people, speaking for their respectable institutions acknowledge the importance and competence of the symposium and recommend supporting the organisation.</Text>
+          <Text>The following people, speaking for their respectable institutions, acknowledge the importance and competence of the symposium and recommend supporting the organisation.</Text>
         </Column>
       </Row>
       <CvA />

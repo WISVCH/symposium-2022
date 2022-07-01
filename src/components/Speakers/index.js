@@ -3,7 +3,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { theme } from 'utilities/styles'
-import slug from 'utilities/slug'
 
 import speakers from './data'
 
@@ -40,7 +39,7 @@ flex-wrap: wrap;
 
 export default () => (
   <div>
-    {speakers.map((speaker, i) => (
+    {speakers.map((speaker, i) => speaker.revealed ? (
       <SpeakerRow to={`/event/${speaker.event}`} key={i}>
         {i % 2 ? <Column size={6} mSize={4} sSize={12}>
           <Text style={{"-webkit-line-clamp": "9"}}> {speaker.abstract} </Text>
@@ -53,6 +52,6 @@ export default () => (
           <Text style={{"-webkit-line-clamp": "9"}}> {speaker.abstract}</Text>
           </Column>}
       </SpeakerRow>
-    ))}
+    ): null)}
   </div>
 )

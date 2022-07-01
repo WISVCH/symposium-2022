@@ -50,7 +50,7 @@ export default () => (
       <Tagline>The Strength of Digital Forensics</Tagline>
       <Info>
         October 18, 2022&nbsp;&nbsp;&nbsp;&nbsp;
-        Technische Universiteit Delft Aula Congrescentrum
+        TU Delft - Aula Congrescentrum
       </Info>
       <Button primary large to="/tickets">Get your ticket now</Button>
     </HeaderContent>

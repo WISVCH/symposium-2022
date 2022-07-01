@@ -4,6 +4,7 @@ import erasmus from 'assets/partners/Erasmus.png'
 import delft from 'assets/partners/Delft.png'
 import brunel from 'assets/partners/Brunel.png'
 import shell from 'assets/partners/Shell.png'
+import oord from 'assets/partners/van_oord.png'
 
 
 
@@ -26,7 +27,7 @@ export default [
   }, {
     image: delft,
     company: 'Delft',
-    name: 'Ms. M. van Bijsterveldt',
+    name: 'M. van Bijsterveldt',
     role: 'Mayor'
   }, {
     image: brunel,
@@ -42,6 +43,11 @@ export default [
     image: shell,
     company: 'Shell Netherlands',
     name: 'M. van Loon',
+    role: 'Chief Executive Officer'
+  }, {
+    image: oord,
+    company: 'Van Oord',
+    name: 'P. van Oord',
     role: 'Chief Executive Officer'
   }
 ]
