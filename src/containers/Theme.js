@@ -27,7 +27,7 @@ const theme = {
     accent: '#e87511',
     success: '#4caf50',
     warning: '#ffc107',
-    error: '#f44336',
+    error: '#000000',
   },
   opacity: {
     titles: 1,
