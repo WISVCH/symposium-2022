@@ -1,10 +1,11 @@
-import Scott from 'assets/committee/Scott.jpg'
-import Waded from 'assets/committee/Waded.jpg'
-import Thomas from 'assets/committee/Thomas.jpg'
-import Jolijn from 'assets/committee/Jolijn.jpg'
-import Darwin from 'assets/committee/Darwin.jpg'
-import Marjolein from 'assets/committee/Marjolein.jpg'
-import Merel from 'assets/committee/Merel.jpg'
+import Scott from 'assets/committee/Scott_comp.jpg'
+import Waded from 'assets/committee/Waded_comp.jpg'
+import Thomas from 'assets/committee/Thomas_comp.jpg'
+import Jolijn from 'assets/committee/Jolijn_comp.jpg'
+import Darwin from 'assets/committee/Darwin_comp.jpg'
+import Marjolein from 'assets/committee/Marjolein_comp.jpg'
+import Merel from 'assets/committee/Merel_comp.jpg'
+import Amanda from 'assets/committee/Amanda_comp.jpg'
 
 export default [
   {
@@ -48,5 +49,11 @@ export default [
     name: 'Merel Steenbergen',
     title: 'Qualitate Qua',
     link: 'https://www.linkedin.com/in/merelannesteenbergen/',
+  },
+  {
+    img: Amanda,
+    name: 'Amanda Krudde',
+    title: 'Qualitate Qua',
+    link: 'https://www.linkedin.com/in/amandakrudde/',
   },
 ]
