@@ -2,18 +2,19 @@ import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white_2.png'
+import ing from 'assets/partners/ing.png'
 
 export default [
-  // {
-  //   name: "Company Partners",
-  //   members: [
-  //     {
-  //       name: 'temp',
-  //       img: temp,
-  //       url: 'temp.com',
-  //     }
-  //   ]
-  // },
+  {
+    name: "Company Partners",
+    members: [
+      {
+        name: 'ING',
+        img: ing,
+        url: 'https://www.ing.nl/particulier/index.html',
+      }
+    ]
+  },
   {
     name: 'Funds',
     members: [
