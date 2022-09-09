@@ -2,6 +2,7 @@ import TBD_person from 'assets/speakers/TBD_person.png'
 import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
+import Zeno from 'assets/speakers/zenogeradts.jpg'
 
 
 const parseTime = (h, m) =>
@@ -69,11 +70,11 @@ const events = [
     revealed: false,
     start: parseTime(14, 0),
     end:   parseTime(14, 45),
-    title: 'To be announced',
-    meta: 'To be announced — To be announced',
-    speaker: 'To be announced',
-    event: 'TBD',
-    bgImage: TBD_person,
+    title: 'Evidence based on digital data',
+    meta: 'Zeno Geradts',
+    speaker: 'Zeno Geradts',
+    event: 'zeno-geradts',
+    bgImage: Zeno,
   },
   {
     revealed: false,
