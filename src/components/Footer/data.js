@@ -4,10 +4,10 @@ import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white_2.png'
 import ing from 'assets/partners/ing.png'
 import abn from 'assets/partners/abn_amro.png'
-import booking from 'assets/partners/booking.png'
 import deloitte from 'assets/partners/deloitte.png'
 import thales from 'assets/partners/thales.png'
 import riskquest from 'assets/partners/riskquest.png'
+import harvest from 'assets/partners/harvest.png'
 
 export default [
   {
@@ -24,9 +24,9 @@ export default [
         url: 'https://www.abnamro.nl/nl/prive/index.html',
       },
       {
-        name: 'Booking.com',
-        img: booking,
-        url: 'https://www.booking.com/',
+        name: 'Harvest',
+        img: harvest,
+        url: 'https://harvest.nl/',
       },
       {
         name: 'Deloitte.',
