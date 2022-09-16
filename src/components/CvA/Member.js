@@ -67,7 +67,7 @@ export default ({ image, company, name, role }) => (
     </Left>
     <Right>
       <Name>{name}</Name>
-      <Tagline>{role} at {company}</Tagline>
+      {company ? <Tagline>{role} at {company}</Tagline> : <Tagline>{role}</Tagline>}
     </Right>
   </Member>
 )

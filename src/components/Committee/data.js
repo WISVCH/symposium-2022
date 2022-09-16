@@ -5,6 +5,7 @@ import Jolijn from 'assets/committee/Jolijn.jpg'
 import Darwin from 'assets/committee/Darwin.jpg'
 import Marjolein from 'assets/committee/Marjolein.jpg'
 import Merel from 'assets/committee/Merel.jpg'
+import Amanda from 'assets/committee/Amanda.jpg'
 
 export default [
   {
@@ -48,5 +49,11 @@ export default [
     name: 'Merel Steenbergen',
     title: 'Qualitate Qua',
     link: 'https://www.linkedin.com/in/merelannesteenbergen/',
+  },
+  {
+    img: Amanda,
+    name: 'Amanda Krudde',
+    title: 'Qualitate Qua',
+    link: 'https://www.linkedin.com/in/amandakrudde/',
   },
 ]

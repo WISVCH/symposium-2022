@@ -26,9 +26,8 @@ export default [
     role: 'Dean of the Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)'
   }, {
     image: delft,
-    company: 'Delft',
     name: 'M. van Bijsterveldt',
-    role: 'Mayor'
+    role: 'Mayor of Delft'
   }, {
     image: brunel,
     company: 'Brunel',

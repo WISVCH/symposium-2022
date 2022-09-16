@@ -2,6 +2,7 @@ import TBD_person from 'assets/speakers/TBD_person.png'
 import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
+import Zeno from 'assets/speakers/zenogeradts.jpg'
 
 
 export default [
@@ -36,15 +37,15 @@ export default [
   }, {
     revealed: true,
     links: [],
-    img: TBD_person,
-    name: 'To be announced',
+    img: Zeno,
+    name: 'Zeno Geradts',
     company: '',
     bio: ``,
-    title: ``,
-    abstract: `More speakers will be revealed soon...`,
-    event: 'TBD',
+    title: `Evidence based on digital data`,
+    abstract: `Crimes leave trails and these trails can also be digital. Think about the texts sent from phones or data from smartwatches. Many conclusions can be made from this information also using likelihood ratios.  For example from heart beat rate, language and voice, financial research and undermining. Zeno Geradts is a professor by special appointment of forensic data science at the UvA and works with the AI4Forensics lab. There they do research on the statements that can be made based on data from phones and smartwatches and also on deep fakes. In his talk he will introduce you to their research and give real life examples.`,
+    event: 'zeno-geradts',
   }, {
-    revealed: false,
+    revealed: true,
     links: [],
     img: TBD_person,
     name: 'To be announced',
