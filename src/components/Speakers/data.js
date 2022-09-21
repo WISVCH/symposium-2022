@@ -3,6 +3,7 @@ import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
+import Stefanie from 'assets/speakers/stefanie.jpg'
 
 
 export default [
@@ -37,6 +38,16 @@ export default [
   }, {
     revealed: true,
     links: [],
+    img: Stefanie,
+    name: 'Stefanie Vonk',
+    company: '',
+    bio: ``,
+    title: `Detection of Financial crime`,
+    abstract: `Financial crime has increasingly become of concern over the past years to governments throughout the world. In the Netherlands alone, an estimated 16 billion euros is laundered annually, tied to predicate offences ranging from human trafficking, and narcotics trafficking to terrorist financing. Financial institutions are committed to detecting these money flows, as part of their 'gatekeeper' role to protect the integrity of the financial system. This fight against money laundering involves a huge amount of data crunching and the application of more advanced analytics in detection. Stefanie Vonk, manager in forensic and financial crime analytics, helps financial institutions in the detection of money laundering and by this plays a role in fighting criminals. She will explain what a complete case study looks like and gives some examples of how to use advanced analytics to keep the financial infrastructure safe.`,
+    event: 'stefanie-vonk',
+  }, {
+    revealed: true,
+    links: [],
     img: Zeno,
     name: 'Zeno Geradts',
     company: '',
@@ -46,16 +57,6 @@ export default [
     event: 'zeno-geradts',
   }, {
     revealed: true,
-    links: [],
-    img: TBD_person,
-    name: 'To be announced',
-    company: '',
-    bio: ``,
-    title: ``,
-    abstract: `More speakers will be revealed soon...`,
-    event: 'TBD',
-  }, {
-    revealed: false,
     links: [],
     img: TBD_person,
     name: 'To be announced',

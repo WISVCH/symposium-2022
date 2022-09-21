@@ -3,6 +3,7 @@ import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
+import Stefanie from 'assets/speakers/stefanie.jpg'
 
 
 const parseTime = (h, m) =>
@@ -41,7 +42,7 @@ const events = [
     title: 'Coffee break',
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime(12, 15),
     end:   parseTime(13, 0),
     title: 'Interpretation of DNA mixtures',
@@ -54,11 +55,11 @@ const events = [
     revealed: false,
     start: parseTime(12, 15),
     end:   parseTime(13, 0),
-    title: 'To be announced',
-    meta: 'To be announced — To be announced',
-    speaker: 'To be announced',
-    event: 'TBD',
-    bgImage: TBD_person,
+    title: 'Detection of Financial crime',
+    meta: 'Stefanie Vonk',
+    speaker: 'Stefanie Vonk',
+    event: 'stefanie-vonk',
+    bgImage: Stefanie,
   },
   {
     revealed: true,
@@ -67,7 +68,7 @@ const events = [
     title: 'Lunch',
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime(14, 0),
     end:   parseTime(14, 45),
     title: 'Evidence based on digital data',
@@ -93,7 +94,7 @@ const events = [
     title: 'Coffee break',
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime(15, 0),
     end:   parseTime(16, 30),
     title: 'Workshops',
