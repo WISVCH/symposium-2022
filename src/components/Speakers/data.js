@@ -4,6 +4,7 @@ import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
 import Stefanie from 'assets/speakers/stefanie.jpg'
+import Workshops from 'assets/partners/workshop_partners.png'
 
 
 export default [
@@ -13,7 +14,7 @@ export default [
     img: Gabriella,
     name: 'Gabriella Adèr',
     title: 'The Host',
-    abstract: 'Gabriella Adèr is a freelance journalist and also works on producing and researching for documentaries and podcasts. Currently, she works for the NRC in the editorial team for podcasts. She collaborated in documentaries such as ‘De Villamoord’, a documentary about the villa murder in 1998 and what mistakes were made trying to solve this crime. Others are ‘Misdaaddokters’ (‘Crime Doctors’), ‘Cocainekoorts’ (‘Cocaine Fever’) and ‘Leven met de Maffia’ (‘Live with the Mafia’). In her work Gabriella is searching for stories representing our society and she is especially interested in the paradoxes that are present in these. This makes crime and justice a particular interest of hers. This interest and her enthusiasm makes her a fantastic host for our symposium.',
+    abstract: 'Gabriella Adèr is a journalist and also works on producing and researching for documentaries and podcasts. Currently, she works for the NRC in the editorial team for podcasts as well as hosting the daily podcast ‘Vandaag’. She collaborated in documentaries such as ‘De Villamoord’, a documentary about the villa murder in 1998 and what mistakes were made trying to solve this crime. Other projects are ‘Misdaaddokters’ (‘Crime Doctors’), ‘Cocainekoorts’ (‘Cocaine Fever’) and ‘Leven met de Maffia’ (‘Live with the Mafia’). She is also still working on releasing more exciting documentaries. In her work Gabriella is searching for stories representing our society and she is especially interested in the paradoxes that are present in these. This makes crime and justice a particular interest of hers. This interest and her enthusiasm makes her a fantastic host for our symposium.',
     event: 'gabriella-ader',
   }, {
     revealed: true,
@@ -65,6 +66,16 @@ export default [
     title: ``,
     abstract: `More speakers will be revealed soon...`,
     event: 'TBD',
+  }, {
+    revealed: false,
+    links: [],
+    img: Workshops,
+    name: 'Workshops',
+    company: '',
+    bio: ``,
+    title: ``,
+    abstract: `Information about the workshops will be revealed soon...`,
+    event: 'workshops',
   }
   
 ]

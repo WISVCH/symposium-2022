@@ -53,7 +53,9 @@ const Image = styled.div`
 
 export default ({bgImage, title, meta, active, ...rest}) =>
   <EventContent {...rest} active={active} large={!!bgImage}>
-    <Image src={bgImage} />
+    {title === 'Workshops'
+      ? null
+      : <Image src={bgImage} />}
     <Title>{title}</Title>
     {meta
       ? <Text>{meta}</Text>

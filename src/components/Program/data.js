@@ -4,6 +4,7 @@ import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
 import Stefanie from 'assets/speakers/stefanie.jpg'
+import Workshops from 'assets/partners/workshop_partners.png'
 
 
 const parseTime = (h, m) =>
@@ -79,8 +80,8 @@ const events = [
   },
   {
     revealed: false,
-    start: parseTime(14, 0),
-    end:   parseTime(14, 45),
+    start: parseTime(15, 0),
+    end:   parseTime(16, 0),
     title: 'To be announced',
     meta: 'To be announced — To be announced',
     speaker: 'To be announced',
@@ -98,6 +99,10 @@ const events = [
     start: parseTime(15, 0),
     end:   parseTime(16, 30),
     title: 'Workshops',
+    meta: '',
+    speaker: 'Workshops',
+    event: 'worskhops',
+    bgImage: Workshops,
   },
   {
     revealed: true,
