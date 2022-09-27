@@ -3,6 +3,8 @@ import Gabriella from 'assets/speakers/gabriella-ader.png'
 import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
 import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
+import Stefanie from 'assets/speakers/stefanie.jpg'
+import Workshops from 'assets/partners/workshop_partners.png'
 
 
 export default [
@@ -12,7 +14,7 @@ export default [
     img: Gabriella,
     name: 'Gabriella Adèr',
     title: 'The Host',
-    abstract: 'Gabriella Adèr is a freelance journalist and also works on producing and researching for documentaries and podcasts. Currently, she works for the NRC in the editorial team for podcasts. She collaborated in documentaries such as ‘De Villamoord’, a documentary about the villa murder in 1998 and what mistakes were made trying to solve this crime. Others are ‘Misdaaddokters’ (‘Crime Doctors’), ‘Cocainekoorts’ (‘Cocaine Fever’) and ‘Leven met de Maffia’ (‘Live with the Mafia’). In her work Gabriella is searching for stories representing our society and she is especially interested in the paradoxes that are present in these. This makes crime and justice a particular interest of hers. This interest and her enthusiasm makes her a fantastic host for our symposium.',
+    abstract: 'Gabriella Adèr is a journalist and also works on producing and researching for documentaries and podcasts. Currently, she works for the NRC in the editorial team for podcasts as well as hosting the daily podcast ‘Vandaag’. She collaborated in documentaries such as ‘De Villamoord’, a documentary about the villa murder in 1998 and what mistakes were made trying to solve this crime. Other projects are ‘Misdaaddokters’ (‘Crime Doctors’), ‘Cocainekoorts’ (‘Cocaine Fever’) and ‘Leven met de Maffia’ (‘Live with the Mafia’). She is also still working on releasing more exciting documentaries. In her work Gabriella is searching for stories representing our society and she is especially interested in the paradoxes that are present in these. This makes crime and justice a particular interest of hers. This interest and her enthusiasm makes her a fantastic host for our symposium.',
     event: 'gabriella-ader',
   }, {
     revealed: true,
@@ -37,6 +39,16 @@ export default [
   }, {
     revealed: true,
     links: [],
+    img: Stefanie,
+    name: 'Stefanie Vonk',
+    company: '',
+    bio: ``,
+    title: `Detection of Financial crime`,
+    abstract: `Financial crime has increasingly become of concern over the past years to governments throughout the world. In the Netherlands alone, an estimated 16 billion euros is laundered annually, tied to predicate offences ranging from human trafficking, and narcotics trafficking to terrorist financing. Financial institutions are committed to detecting these money flows, as part of their 'gatekeeper' role to protect the integrity of the financial system. This fight against money laundering involves a huge amount of data crunching and the application of more advanced analytics in detection. Stefanie Vonk, manager in forensic and financial crime analytics, helps financial institutions in the detection of money laundering and by this plays a role in fighting criminals. She will explain what a complete case study looks like and gives some examples of how to use advanced analytics to keep the financial infrastructure safe.`,
+    event: 'stefanie-vonk',
+  }, {
+    revealed: true,
+    links: [],
     img: Zeno,
     name: 'Zeno Geradts',
     company: '',
@@ -57,13 +69,13 @@ export default [
   }, {
     revealed: false,
     links: [],
-    img: TBD_person,
-    name: 'To be announced',
+    img: Workshops,
+    name: 'Workshops',
     company: '',
     bio: ``,
     title: ``,
-    abstract: `More speakers will be revealed soon...`,
-    event: 'TBD',
+    abstract: `Information about the workshops will be revealed soon...`,
+    event: 'workshops',
   }
   
 ]

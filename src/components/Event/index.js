@@ -40,10 +40,12 @@ const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
         </Column>
         <Column size={6} mSize={12}>
           <H2>{title}</H2>
-          <Text>
+          {meta ? <Text>
             <TextLabel>Time</TextLabel>{format(start)} - {format(end)}<br />
             <TextLabel>Speaker</TextLabel>{meta}
-          </Text>
+          </Text> : <Text>
+            <TextLabel>Time</TextLabel>{format(start)} - {format(end)}<br />
+          </Text>}
         </Column>
       </Row>
     </Section>
