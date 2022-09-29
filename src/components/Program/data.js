@@ -5,6 +5,8 @@ import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
 import Stefanie from 'assets/speakers/stefanie.jpg'
 import Workshops from 'assets/partners/workshop_partners.png'
+import MaryPaul from 'assets/speakers/Mary_Paul.jpg'
+
 
 
 const parseTime = (h, m) =>
@@ -79,14 +81,14 @@ const events = [
     bgImage: Zeno,
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime(15, 0),
     end:   parseTime(16, 0),
-    title: 'To be announced',
-    meta: 'To be announced — To be announced',
-    speaker: 'To be announced',
-    event: 'TBD',
-    bgImage: TBD_person,
+    title: 'The privacy challenge of human trafficking data',
+    meta: 'Mary Adams and Paul Fockens',
+    speaker: 'Mary Adams and Paul Fockens',
+    event: 'mary-paul',
+    bgImage: MaryPaul,
   },
   {
     revealed: true,
