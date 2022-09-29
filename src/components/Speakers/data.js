@@ -5,6 +5,7 @@ import Klaas from 'assets/speakers/klaas-slooten.jpg'
 import Zeno from 'assets/speakers/zenogeradts.jpg'
 import Stefanie from 'assets/speakers/stefanie.jpg'
 import Workshops from 'assets/partners/workshop_partners.png'
+import MaryPaul from 'assets/speakers/Mary_Paul.jpg'
 
 
 export default [
@@ -59,13 +60,13 @@ export default [
   }, {
     revealed: true,
     links: [],
-    img: TBD_person,
-    name: 'To be announced',
+    img: MaryPaul,
+    name: 'Mary Adams and Paul Fockens',
     company: '',
     bio: ``,
-    title: ``,
-    abstract: `More speakers will be revealed soon...`,
-    event: 'TBD',
+    title: `The privacy challenge of human trafficking data`,
+    abstract: `Human trafficking it is a serious human rights violation. Technology is making a difference in disrupting the criminal business model. But can we do more than create toolsets and databases? Privacy laws make it difficult for organizations to share sensitive data and collaborate in anti-trafficking. Mary Adams and Paul Fockens of Sustainable Rescue Foundation, have identified opportunities to meet the privacy challenge in data sharing. During their session, they will explain how they overcame privacy barriers in projects to connect technology to operational value for both data providers and beneficiaries.`,
+    event: 'mary-paul',
   }, {
     revealed: false,
     links: [],
