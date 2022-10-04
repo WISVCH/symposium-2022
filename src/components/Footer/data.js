@@ -1,7 +1,7 @@
 import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
-import ch from 'assets/partners/ch_white_2.png'
+import ch from 'assets/partners/ch.png'
 import ing from 'assets/partners/ing.png'
 import abn from 'assets/partners/abn_amro.png'
 import deloitte from 'assets/partners/deloitte.png'
