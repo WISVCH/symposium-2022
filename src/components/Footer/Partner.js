@@ -6,6 +6,7 @@ const Partner = styled.a`
 
   display: block;
   padding-top: 40%;
+
 `
 
 const Logo = styled.img`
@@ -16,8 +17,6 @@ const Logo = styled.img`
   max-width: 100%;
   max-height: 100%;
   margin: auto;
-
-  filter: brightness(0%) invert(100%)
 `
 
 export default ({ name, img, url }) => (

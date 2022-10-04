@@ -26,7 +26,7 @@ export default () => (
         {partners.map((group, i) => (
           <div key={i}>
             <GroupTitle>{group.name}</GroupTitle>
-            <Row>
+            <Row style={{"background-color": "#ffffff", "border-radius": "0.5em"}}>
               {group.members.map((partner, j) => (
                 <Column key={j} size={4}>
                   <Partner {...partner} />
