@@ -75,7 +75,7 @@ export default [
     company: '',
     bio: ``,
     title: ``,
-    abstract: `Information about the workshops will be revealed soon...`,
+    abstract: `RiskQuest Financial Crime Case\n\n Today you're about to discover how a typical day looks like within the Data Science team at RiskQuest. You're tasked with helping a credit card company with identifying potential fraudsters. To this end, your team will combine all their analytical and programming skills to build a machine-learning model. The company has provided you with access to their historical transaction data (i.e. features), as well as the outcome of the manual review performed by their compliance department (i.e. the target variables). To give you a head-start, we have already structured the below notebooks in various parts, ranging from exploratory data analysis to hyper-parameter tuning. We look forward to seeing your results, and of course there will be a prize for the best performing team!\n\n\n`,
     event: 'workshops',
   }
   
