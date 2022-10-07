@@ -82,8 +82,8 @@ const events = [
   },
   {
     revealed: true,
-    start: parseTime(15, 0),
-    end:   parseTime(16, 0),
+    start: parseTime(14, 0),
+    end:   parseTime(14, 45),
     title: 'The privacy challenge of human trafficking data',
     meta: 'Mary Adams and Paul Fockens',
     speaker: 'Mary Adams and Paul Fockens',
