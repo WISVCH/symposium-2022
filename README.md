@@ -1,6 +1,6 @@
 # Symposium 2021-2022
 
-<img src="src/assets/logo/sympo_logo_final_.svg" alt="Solving Crime in No Time - The Strength of Digital Forensics" width="50%" />
+<img src="src/assets/logo/sympo_logo_final.svg" alt="Solving Crime in No Time - The Strength of Digital Forensics" width="50%" />
 
 ## Prerequisites
 - npm / yarn
