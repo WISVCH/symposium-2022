@@ -52,6 +52,7 @@ const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
     <Section id="abstract">
       <H3>About</H3>
       <Markdown source={abstract} />
+      <Markdown source={bio} />
     </Section>
   </div>
 
