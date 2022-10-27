@@ -10,6 +10,8 @@ const Button = styled.button`
     width: 100%;
   `}
 
+  margin: 1em 0;
+
   position: relative;
 
   border-style: solid;
