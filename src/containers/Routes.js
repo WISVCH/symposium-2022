@@ -7,6 +7,7 @@ import EventPage from 'pages/event'
 import AboutPage from 'pages/about'
 import NotFoundPage from 'pages/notFound'
 import BookletPage from 'pages/booklet'
+import AftermoviePage from 'pages/aftermovie'
 
 export default () => (
   <Switch>
@@ -15,6 +16,7 @@ export default () => (
     <Route path="/event/:event" component={EventPage} />
     <Route path="/about" component={AboutPage} />
     <Route path="/booklet" component={BookletPage} />
+    <Route path="/aftermovie" component={AftermoviePage} />
     <Route path="/tickets" component={() =>
       window.location.replace(`https://ch.tudelft.nl/activities/event/2022/symposium/`)} />
     <Route path='/history' component={() =>

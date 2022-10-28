@@ -83,8 +83,8 @@ export default () => (
                 Booklet & Aftermovie Available
             </h2>
             Our booklet for the symposium is available <Link to={"/booklet"} rel="noopener noreferrer">here</Link> for those who want to revisit it. 
-            {/* An aftermovie of the event made by Roel is available to watch <Link to={"/recording"} rel="noopener noreferrer">here</Link>.  */}
-             See you all at the next Symposium!
+            An aftermovie of the event made by Roel is available to watch <Link to={"/aftermovie"} rel="noopener noreferrer">here</Link>.  
+            See you all at the next Symposium!
             <br/> <br/>
             Symposium Committee 2021-2022
         </IntroText>
