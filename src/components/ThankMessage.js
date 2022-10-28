@@ -37,7 +37,7 @@ const ThankMessage = styled.div`
     darken(props.theme.colors.primary, 20)};
   border-radius: ${theme('border', 'radius')};
 
-  background-color: ${props => opacity(props.theme.colors.secondary, 0.6)};
+  background-color: ${props => opacity(props.theme.colors.tertiary, 0.6)};
 
 
   ${media.small`padding: 1em 2em;`}
