@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import {H1, H2, Text, Button} from 'components/lib'
+import {H2, Text, Button} from 'components/lib'
 import SympoPage from 'components/lib/Page'
 import Section from 'components/Section'
 import booklet from 'assets/booklet.pdf'

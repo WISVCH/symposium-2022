@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {theme, media, darken, colors, opacity} from 'utilities/styles'
+import {theme, media, darken, opacity} from 'utilities/styles'
 
 import {H2, Link, Text} from 'components/lib'
 import Texture from 'components/Texture'
