@@ -1,4 +1,4 @@
-FROM node:lts as builder
+FROM node:16.14.2 as builder
 WORKDIR /src
 COPY . .
 RUN yarn
