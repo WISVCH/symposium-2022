@@ -17,6 +17,8 @@ export default () => (
     <Route path="/about" component={AboutPage} />
     <Route path="/booklet" component={BookletPage} />
     <Route path="/aftermovie" component={AftermoviePage} />
+    <Route path="/pictures" component={() =>
+      window.location.replace(`https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=169`)} />
     <Route path="/tickets" component={() =>
       window.location.replace(`https://ch.tudelft.nl/activities/event/2022/symposium/`)} />
     <Route path='/history' component={() =>

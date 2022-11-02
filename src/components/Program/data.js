@@ -11,6 +11,7 @@ import MaryPaulSlides from 'assets/speakers/slides/MaryPaul.pdf'
 import KlaasSlootenSlides from 'assets/speakers/slides/KlaasSlooten.pdf'
 import RonaldPrinsSlides from 'assets/speakers/slides/RonaldPrins.pdf'
 import ZenoGeradtsSlides from 'assets/speakers/slides/ZenoGeradts.pdf'
+import StefanieVonkSlides from 'assets/speakers/slides/StefanieVonk.pdf'
 
 
 
@@ -102,6 +103,7 @@ const events = [
     bio: `Stefanie Vonk is a Manager Forensic and Financial Crime Analytics at Deloitte. After graduating Applied Mathematics at the TU Delft in 2016, she looked for a place where she could apply her skills for a good cause. An important threat that we experience is criminals trying to influence our society in all possible ways. One key method is the abuse of our financial system by criminals, to hide ("launder") money earned with illegal activities such as drug trafficking. In the detection of this kind of abuse, the application of advanced technologies like outlier detection and network analytics has proven to be very successful. It was therefore an easy choice for her to start working in the field of detecting Financial Crime. The best of both worlds.`,
     event: 'stefanie-vonk',
     bgImage: Stefanie,
+    slides: StefanieVonkSlides,
   },
   {
     revealed: true,
