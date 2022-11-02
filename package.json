@@ -1,11 +1,8 @@
 {
   "name": "symposium-2022",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "homepage": "https://symposium.ch.tudelft.nl/2022",
   "private": true,
-  "engines": {
-    "node": ">=9"
-  },
   "dependencies": {
     "classnames": "^2.2.5",
     "history": "^4.7.2",
@@ -22,13 +19,14 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.0.0",
     "redux": "^3.7.2",
     "redux-actions": "^2.4.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-saga": "^0.16.0",
     "reselect": "^3.0.1",
-    "styled-components": "^3.3.3"
+    "styled-components": "^3.3.3",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "deploy": "npm run build && firebase deploy",

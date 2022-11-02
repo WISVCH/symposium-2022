@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { H2 } from 'components/lib'
+import { H2 } from '../lib'
 import Event from './Event'
 
 import events from './data'

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Page, H2, Text } from 'components/lib'
-import Section from 'components/Section'
-import Program from 'components/Program'
+import { Page, H2, Text } from '../components/lib'
+import Section from '../components/Section'
+import Program from '../components/Program'
 
 export default () => (
   <Page>

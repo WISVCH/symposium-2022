@@ -7,9 +7,9 @@ import { ConnectedRouter } from 'react-router-redux'
 import registerServiceWorker from './registerServiceWorker'
 import configureStore from './store'
 
-import Translations from 'containers/Translations'
-import Theme from 'containers/Theme'
-import App from 'containers/App'
+import Translations from './containers/Translations'
+import Theme from './containers/Theme'
+import App from './containers/App'
 
 const history = createHistory({ basename: "/2022" })
 const initialState = {

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import fingerprint from 'assets/logo/animation/fingerprint.svg'
-import circle_2 from 'assets/logo/animation/cirkel_2.svg'
-import circle_3 from 'assets/logo/animation/cirkel_3.svg'
-import animation_stylesheet from 'assets/logo/animation/rotating_logo.css'
+import fingerprint from '../../assets/logo/animation/fingerprint.svg'
+import circle_2 from '../../assets/logo/animation/cirkel_2.svg'
+import circle_3 from '../../assets/logo/animation/cirkel_3.svg'
+import animation_stylesheet from '../../assets/logo/animation/rotating_logo.css'
 
 /* 
 The below code can be used to display a static image.

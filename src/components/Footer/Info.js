@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme } from 'utilities/styles'
+import { theme } from '../../utilities/styles'
 
-import { Text, H3 } from 'components/lib'
+import { Text, H3 } from '../lib'
 import Section from './Section'
 
 const Info = Section.extend`

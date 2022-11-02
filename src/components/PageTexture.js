@@ -1,4 +1,4 @@
-import Texture from 'components/Texture'
+import Texture from './Texture'
 
 export default Texture.extend`
   left: 50%; top: -50vh;

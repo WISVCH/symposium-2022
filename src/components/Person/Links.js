@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import web from 'assets/icons/web.svg'
-import twitter from 'assets/icons/twitter.svg'
-import linkedin from 'assets/icons/linkedin.svg'
-import lumc from 'assets/icons/lumc.svg'
+import web from '../../assets/icons/web.svg'
+import twitter from '../../assets/icons/twitter.svg'
+import linkedin from '../../assets/icons/linkedin.svg'
+import lumc from '../../assets/icons/lumc.svg'
 
 const PersonLinks = styled.div`
   margin: 1em -.25em 0;

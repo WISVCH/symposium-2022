@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { createReducer } from 'utilities/ducks'
+import { createReducer } from '../utilities/ducks'
 
 // Action types
 export const OPEN = 'modals/OPEN'

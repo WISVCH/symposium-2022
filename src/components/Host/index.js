@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Person from 'components/Person'
-import TBD_person from 'assets/speakers/gabriella-ader.png'
+import Person from '../Person'
+import TBD_person from '../../assets/speakers/gabriella-ader.png'
 
 const host = [
   {

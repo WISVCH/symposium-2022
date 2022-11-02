@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { opacity } from 'utilities/styles'
+import { opacity } from '../../utilities/styles'
 
 const Text = styled.p`
   line-height: ${props => props.theme.lineHeight};

@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
 const Wrapper = styled.div`
   max-width: 65em;

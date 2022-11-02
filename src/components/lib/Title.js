@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { opacity, theme } from 'utilities/styles'
+import { opacity, theme } from '../../utilities/styles'
 
 const Title = level => styled[`h${level}`]`
   color: ${props => opacity(props.theme.colors.text, props.theme.opacity.titles)};

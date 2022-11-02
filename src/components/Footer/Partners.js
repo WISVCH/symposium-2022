@@ -1,7 +1,7 @@
 import React from 'react'
-import { theme, opacity } from 'utilities/styles'
+import { theme, opacity } from '../../utilities/styles'
 
-import { H2, H4, Text, Row, Column } from 'components/lib'
+import { H2, H4, Text, Row, Column } from '../lib'
 import Section from './Section'
 import Partner from './Partner'
 

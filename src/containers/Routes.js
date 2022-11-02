@@ -1,13 +1,13 @@
 import React from 'react'
 import { Route, Switch } from 'react-router'
 
-import HomePage from 'pages/home'
-import ProgramPage from 'pages/program'
-import EventPage from 'pages/event'
-import AboutPage from 'pages/about'
-import NotFoundPage from 'pages/notFound'
-import BookletPage from 'pages/booklet'
-import AftermoviePage from 'pages/aftermovie'
+import HomePage from '../pages/home'
+import ProgramPage from '../pages/program'
+import EventPage from '../pages/event'
+import AboutPage from '../pages/about'
+import NotFoundPage from '../pages/notFound'
+import BookletPage from '../pages/booklet'
+import AftermoviePage from '../pages/aftermovie'
 
 export default () => (
   <Switch>

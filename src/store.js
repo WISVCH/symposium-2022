@@ -4,8 +4,8 @@ import createSagaMiddleware from 'redux-saga'
 import { routerMiddleware } from 'react-router-redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-import reducer from 'ducks/root'
-import rootSaga from 'sagas/root'
+import reducer from './ducks/root'
+import rootSaga from './sagas/root'
 
 const configureStore = (initialState, history) => {
   const sagaMiddleware = createSagaMiddleware()

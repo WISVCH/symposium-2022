@@ -1,11 +1,11 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
 import Social from './Social'
 import Info from './Info'
 
-import unknown from 'assets/speakers/unknown.svg'
+import unknown from '../../assets/speakers/unknown.svg'
 
 const Person = styled.div`
   margin: 4em 0;

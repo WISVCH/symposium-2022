@@ -1,11 +1,11 @@
 import React from 'react'
 
-import {Page, H2} from 'components/lib'
-import Section from 'components/Section'
+import {Page, H2} from '../components/lib'
+import Section from '../components/Section'
 
 import ReactPlayer from 'react-player'
 
-import AfterMovie from 'assets/AfterMovieComp.mp4'
+import AfterMovie from '../assets/AfterMovieComp.mp4'
 export default () => (
     <Page>
         <Section>

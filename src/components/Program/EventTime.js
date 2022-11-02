@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Text } from 'components/lib'
+import { Text } from '../lib'
 
 const format = d =>
   d.toUTCString().split(' ')[4].substring(0, 5)

@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme } from 'utilities/styles'
+import { theme } from '../../utilities/styles'
 
-import { H2, H3, Link, Text, Markdown, Row, Column } from 'components/lib'
-import Section from 'components/Section'
+import { H2, H3, Link, Text, Markdown, Row, Column } from '../lib'
+import Section from '../Section'
 
-import speakers from 'components/Speakers/data'
+import speakers from '../Speakers/data'
 
 const format = d =>
   d.toUTCString().split(' ')[4].substring(0, 5)

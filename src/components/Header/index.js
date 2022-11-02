@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
-import { Wrapper, H1, H2, Text, Button } from 'components/lib'
+import { Wrapper, H1, H2, Text, Button } from '../lib'
 import GhostLogo from './GhostLogo'
 import ScrollDown from './ScrollDown'
 import ThankMessage from '../ThankMessage'

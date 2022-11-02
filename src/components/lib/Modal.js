@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { css } from 'styled-components'
-import { opacity } from 'utilities/styles'
+import { opacity } from '../../utilities/styles'
 
 import Wrapper from './Wrapper'
 

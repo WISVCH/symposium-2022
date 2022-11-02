@@ -1,16 +1,16 @@
 import React from 'react'
 
-import { H2, Text, Page, Row, Column, Button, Image } from 'components/lib'
+import { H2, Text, Page, Row, Column, Button, Image } from '../components/lib'
 
-import Header from 'components/Header'
-import Section from 'components/Section'
+import Header from '../components/Header'
+import Section from '../components/Section'
 
-import IntroImage from 'components/IntroImage'
-import Introduction from 'components/Introduction'
-import Speakers from 'components/Speakers'
-import CvA from 'components/CvA'
+import IntroImage from '../components/IntroImage'
+import Introduction from '../components/Introduction'
+import Speakers from '../components/Speakers'
+import CvA from '../components/CvA'
 
-import team from 'assets/team.jpg'
+import team from '../assets/team.jpg'
 
 export default () => (
   <Page>

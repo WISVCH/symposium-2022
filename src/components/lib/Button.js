@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { darken, lighten, theme } from 'utilities/styles'
+import { darken, lighten, theme } from '../../utilities/styles'
 
 import { Link } from 'react-router-dom'
 

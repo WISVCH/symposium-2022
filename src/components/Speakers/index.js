@@ -2,11 +2,11 @@ import React from 'react'
 
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { theme } from 'utilities/styles'
+import { theme } from '../../utilities/styles'
 
 import speakers from './data'
 
-import { Text, Column } from 'components/lib'
+import { Text, Column } from '../lib'
 import Speaker from './Speaker'
 
 

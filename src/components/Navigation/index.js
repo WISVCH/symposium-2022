@@ -1,12 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
-import * as navigation from 'selectors/navigation'
+import * as navigation from '../../selectors/navigation'
 
 import { Link } from 'react-router-dom'
-import { Wrapper } from 'components/lib'
+import { Wrapper } from '../lib'
 import StyledLink from './Link'
 import NavLogo from './Logo'
 

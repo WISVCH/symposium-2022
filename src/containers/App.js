@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Routes from 'containers/Routes'
+import Routes from './Routes'
 
-import { Container } from 'components/lib'
-import PageTexture from 'components/PageTexture'
-import Navigation from 'components/Navigation'
-import Footer from 'components/Footer'
+import { Container } from '../components/lib'
+import PageTexture from '../components/PageTexture'
+import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 const App = styled.div`
   width: 100%;
