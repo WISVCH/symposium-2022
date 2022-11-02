@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../utilities/styles'
 
-import { Wrapper } from 'components/lib'
+import { Wrapper } from './lib'
 
 const Section = styled.section`
   position: relative;

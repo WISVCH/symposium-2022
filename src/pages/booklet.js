@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
-import {H2, Text, Button} from 'components/lib'
-import SympoPage from 'components/lib/Page'
-import Section from 'components/Section'
-import booklet from 'assets/booklet.pdf'
+import {H2, Text, Button} from '../components/lib'
+import SympoPage from '../components/lib/Page'
+import Section from '../components/Section'
+import booklet from '../assets/booklet.pdf'
 import { Document, Page, pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

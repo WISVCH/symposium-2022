@@ -1,10 +1,10 @@
-import tud from 'assets/partners/tudelft.png'
-import tno from 'assets/partners/tno.png'
-import erasmus from 'assets/partners/Erasmus.png'
-import delft from 'assets/partners/Delft.png'
-import brunel from 'assets/partners/Brunel.png'
-import shell from 'assets/partners/Shell.png'
-import oord from 'assets/partners/van_oord.png'
+import tud from '../../assets/partners/tudelft.png'
+import tno from '../../assets/partners/tno.png'
+import erasmus from '../../assets/partners/Erasmus.png'
+import delft from '../../assets/partners/Delft.png'
+import brunel from '../../assets/partners/Brunel.png'
+import shell from '../../assets/partners/Shell.png'
+import oord from '../../assets/partners/van_oord.png'
 
 
 

@@ -1,11 +1,11 @@
-import Scott from 'assets/committee/Scott.jpg'
-import Waded from 'assets/committee/Waded.jpg'
-import Thomas from 'assets/committee/Thomas.jpg'
-import Jolijn from 'assets/committee/Jolijn.jpg'
-import Darwin from 'assets/committee/Darwin.jpg'
-import Marjolein from 'assets/committee/Marjolein.jpg'
-import Merel from 'assets/committee/Merel.jpg'
-import Amanda from 'assets/committee/Amanda.jpg'
+import Scott from '../../assets/committee/Scott.jpg'
+import Waded from '../../assets/committee/Waded.jpg'
+import Thomas from '../../assets/committee/Thomas.jpg'
+import Jolijn from '../../assets/committee/Jolijn.jpg'
+import Darwin from '../../assets/committee/Darwin.jpg'
+import Marjolein from '../../assets/committee/Marjolein.jpg'
+import Merel from '../../assets/committee/Merel.jpg'
+import Amanda from '../../assets/committee/Amanda.jpg'
 
 export default [
   {

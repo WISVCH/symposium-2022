@@ -2,8 +2,8 @@ import React from 'react'
 
 import cva from './members'
 
-import { Row, Column } from 'components/lib'
-import Texture from 'components/Texture'
+import { Row, Column } from '../lib'
+import Texture from '../Texture'
 import Member from './Member'
 
 const RelRow = Row.extend`

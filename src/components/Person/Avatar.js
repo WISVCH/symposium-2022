@@ -30,7 +30,7 @@ const Avatar = styled.img.attrs({
 `
 
 export default ({link, ...rest}) => link
-  ? <a href={link} target="_blank">
+  ? <a href={link} target="_blank" rel="noopener noreferrer">
       <Avatar {...rest} />
     </a>
   : <Avatar {...rest} />

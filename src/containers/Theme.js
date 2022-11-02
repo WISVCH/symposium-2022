@@ -1,8 +1,8 @@
 import React from 'react'
 import { ThemeProvider, injectGlobal } from 'styled-components'
 
-import monthoersOTF from 'assets/fonts/monthoers.otf'
-import ubuntuTTF from 'assets/fonts/Ubuntu-Regular.ttf'
+import monthoersOTF from '../assets/fonts/monthoers.otf'
+import ubuntuTTF from '../assets/fonts/Ubuntu-Regular.ttf'
 
 const theme = {
   fonts: {

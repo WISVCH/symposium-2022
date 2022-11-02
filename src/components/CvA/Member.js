@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme, media } from 'utilities/styles'
+import { theme, media } from '../../utilities/styles'
 
-import { H3, Text } from 'components/lib'
+import { H3, Text } from '../lib'
 
 const Member = styled.div`
   height: 8em;

@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme, media, darken } from 'utilities/styles'
+import { theme, media, darken } from '../utilities/styles'
 
-import { H2, Text } from 'components/lib'
-import Texture from 'components/Texture'
+import { H2, Text } from '../components/lib'
+import Texture from '../components/Texture'
 
-import Scott from 'assets/committee/Scott_cutout.png'
+import Scott from '../assets/committee/Scott_cutout.png'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`

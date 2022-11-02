@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import {theme, media, darken, opacity} from 'utilities/styles'
+import {theme, media, darken, opacity} from '../utilities/styles'
 
-import {H2, Link, Text} from 'components/lib'
-import Texture from 'components/Texture'
+import {H2, Link, Text} from './lib'
+import Texture from './Texture'
 
-import closingPicture from 'assets/team.jpg'
+import closingPicture from '../assets/team.jpg'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`

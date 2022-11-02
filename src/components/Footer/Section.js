@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
-import Section from 'components/Section'
+import Section from '../Section'
 
 export default styled(Section)`
   ${media.small`padding: 1em 0;`}

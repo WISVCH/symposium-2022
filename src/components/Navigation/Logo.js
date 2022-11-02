@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
-import logo from 'assets/logo/sympo-logo-klein.svg'
+import logo from '../../assets/logo/sympo-logo-klein.svg'
 
 export default styled.img.attrs({
   src: () => logo,

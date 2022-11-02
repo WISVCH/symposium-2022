@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { Page, H2, Text } from 'components/lib'
-import Section from 'components/Section'
-import Host from 'components/Host'
-import RvA from 'components/RvA'
-import Committee from 'components/Committee'
+import { Page, H2, Text } from '../components/lib'
+import Section from '../components/Section'
+import Host from '../components/Host'
+import RvA from '../components/RvA'
+import Committee from '../components/Committee'
 
 export default () => (
   <Page>

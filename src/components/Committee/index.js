@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Row, Column } from 'components/lib'
-import Person from 'components/Person'
+import { Row, Column } from '../lib'
+import Person from '../Person'
 
 import commissioners from './data'
 

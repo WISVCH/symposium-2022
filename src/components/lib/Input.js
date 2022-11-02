@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { opacity } from 'utilities/styles'
+import { opacity } from '../../utilities/styles'
 
 const Label = styled.label`
   display: inline-block;

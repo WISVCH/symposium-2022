@@ -1,11 +1,11 @@
-import TBD_person from 'assets/speakers/TBD_person.png'
-import Gabriella from 'assets/speakers/gabriella-ader.png'
-import Ronald from 'assets/speakers/foto_ronald_prins.jpg'
-import Klaas from 'assets/speakers/klaas-slooten.jpg'
-import Zeno from 'assets/speakers/zenogeradts.jpg'
-import Stefanie from 'assets/speakers/stefanie.jpg'
-import Workshops from 'assets/partners/workshop_partners.png'
-import MaryPaul from 'assets/speakers/Mary_Paul.jpg'
+import TBD_person from '../../assets/speakers/TBD_person.png'
+import Gabriella from '../../assets/speakers/gabriella-ader.png'
+import Ronald from '../../assets/speakers/foto_ronald_prins.jpg'
+import Klaas from '../../assets/speakers/klaas-slooten.jpg'
+import Zeno from '../../assets/speakers/zenogeradts.jpg'
+import Stefanie from '../../assets/speakers/stefanie.jpg'
+import Workshops from '../../assets/partners/workshop_partners.png'
+import MaryPaul from '../../assets/speakers/Mary_Paul.jpg'
 
 
 export default [

@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled, { css } from 'styled-components'
-import { theme } from 'utilities/styles'
-import * as Modals from 'ducks/modals'
+import { theme } from '../../utilities/styles'
+import * as Modals from '../../ducks/modals'
 
 const Container = styled.div`
   transition: filter .4s ease-out;

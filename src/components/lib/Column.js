@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
 const Column = styled.div`
   display: block;

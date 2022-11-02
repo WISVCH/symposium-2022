@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Person from 'components/Person'
+import Person from '../Person'
 
-import gJongbloed from 'assets/RvA/g_Jongbloed.png'
-import cWitteveen from 'assets/RvA/c_Witteveen.jpg'
-import rFokkink from 'assets/RvA/r_Fokkink.jpg'
-import cLiem from 'assets/RvA/c_Liem.jpg'
+import gJongbloed from '../../assets/RvA/g_Jongbloed.png'
+import cWitteveen from '../../assets/RvA/c_Witteveen.jpg'
+import rFokkink from '../../assets/RvA/r_Fokkink.jpg'
+import cLiem from '../../assets/RvA/c_Liem.jpg'
 
 
 const rva = [

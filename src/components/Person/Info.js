@@ -1,8 +1,8 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { media } from 'utilities/styles'
+import { media } from '../../utilities/styles'
 
-import { H3, Text } from 'components/lib'
+import { H3, Text } from '../lib'
 
 const Info = styled.div`
   display: inline-block;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme } from 'utilities/styles'
+import { theme } from '../../utilities/styles'
 
 import { Link } from 'react-router-dom'
 
