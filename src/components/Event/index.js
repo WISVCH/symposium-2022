@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { theme } from 'utilities/styles'
 
-import { H2, H3, Text, Markdown, Row, Column } from 'components/lib'
+import { H2, H3, Link, Text, Markdown, Row, Column } from 'components/lib'
 import Section from 'components/Section'
 
 import speakers from 'components/Speakers/data'
@@ -31,7 +31,7 @@ const TextLabel = styled.strong`
   }
 `
 
-const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
+const Event = ({start, end, meta, title, bgImage, abstract, name, bio, slides}) =>
   <div>
     <Section>
       <Row rtl>
@@ -49,10 +49,14 @@ const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
         </Column>
       </Row>
     </Section>
+    <Section>
+      {slides ? <Link href={slides} download="Slides.pdf"> Download the slides here </Link> : null}
+      </Section>
     <Section id="abstract">
       <H3>About</H3>
       <Markdown source={abstract} />
       <Markdown source={bio} />
+      
     </Section>
   </div>
 

@@ -5,6 +5,8 @@ import { media } from 'utilities/styles'
 import { Wrapper, H1, H2, Text, Button } from 'components/lib'
 import GhostLogo from './GhostLogo'
 import ScrollDown from './ScrollDown'
+import ThankMessage from '../ThankMessage'
+
 
 const Header = styled.header`
   position: relative;
@@ -20,7 +22,7 @@ const HeaderContent = Wrapper.extend`
   align-items: flex-start;
 
   min-height: 80vh;
-  padding-top: 2em;
+  padding-top: 4em;
   padding-bottom: 2em;
 `
 
@@ -51,8 +53,9 @@ export default () => (
       <Info>
         October 18, 2022&nbsp;&nbsp;&nbsp;&nbsp;
         TU Delft - Aula Congrescentrum
-      </Info>
+      </Info>    
       <Button primary large to="/tickets">Get your ticket now</Button>
+      <ThankMessage/>
     </HeaderContent>
     <ScrollDown>&darr;</ScrollDown>
   </Header>
