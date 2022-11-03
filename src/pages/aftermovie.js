@@ -5,12 +5,11 @@ import Section from '../components/Section'
 
 import ReactPlayer from 'react-player'
 
-import AfterMovie from '../assets/AfterMovieComp.mp4'
 export default () => (
     <Page>
         <Section>
             <H2>Solving Crime in No Time Aftermovie</H2>
-            <ReactPlayer url={AfterMovie} controls={true} config={{ file: {
+            <ReactPlayer url={'https://youtu.be/-eZTjspF0FQ'} controls={true} config={{ file: {
                     attributes: {
                         controlsList: 'nodownload'
                     }
