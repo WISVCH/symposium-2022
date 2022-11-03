@@ -54,7 +54,7 @@ export default () => (
         October 18, 2022&nbsp;&nbsp;&nbsp;&nbsp;
         TU Delft - Aula Congrescentrum
       </Info>    
-      <Button primary large to="/tickets">Get your ticket now</Button>
+      {/* <Button primary large to="/tickets">Get your ticket now</Button> */}
       <ThankMessage/>
     </HeaderContent>
     <ScrollDown>&darr;</ScrollDown>

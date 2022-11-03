@@ -5,11 +5,11 @@ import { theme } from '../../utilities/styles'
 import { Link } from 'react-router-dom'
 
 const ReactLink = styled(Link)`
-  color: ${theme('colors','primary')};
+  color: ${theme('colors','success')};
 `
 
 const HtmlLink = styled.a`
-  color: ${theme('colors','primary')};
+  color: ${theme('colors','success')};
 `
 
 export default ({href, ...rest}) => href
